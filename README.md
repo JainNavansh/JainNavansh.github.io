@@ -2,11 +2,14 @@
 
 Two files matter to you:
 
+Current version: **v0.3** — see `CHANGELOG.md` for what changed.
+
 | File | What it is |
 |---|---|
 | `index.html` | The site. You never need to open this. |
 | `content.json` | All your content. Every word, project and link. |
 | `editor.html` | A visual editor for `content.json`. This is where you work. |
+| `CHANGELOG.md` | What changed in each version. Not uploaded to your site. |
 
 ---
 
@@ -56,6 +59,8 @@ Put your files in an `images/` folder next to `index.html`, then type the path (
 
 Image fields exist on:
 
+- **Name & intro** — a profile picture (shown as a circle in About) and a wide cover image (a banner under the hero)
+
 - **Projects** — cover image, plus a gallery
 - **Blog posts** — cover image, plus a gallery
 - **Toolset groups** — one image under the list
@@ -64,6 +69,10 @@ Image fields exist on:
 The **Gallery** on projects and posts takes any mix of images and videos, each with an optional caption. Add rows with the dropdown set to Image or Video.
 
 Leave a project's cover empty and the generated pattern comes back — nothing is ever a broken image.
+
+## Contact links
+
+Type a plain email address or web address and the editor builds the link for you — `navansh@gmail.com` becomes a working `mailto:` link, `github.com/you` becomes `https://github.com/you`. The editor shows you the resolved link under each row as you type.
 
 ## Dates
 
