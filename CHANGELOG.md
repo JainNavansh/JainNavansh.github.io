@@ -6,6 +6,24 @@ Versions step up by 0.1 for a batch of changes, and by 0.0.1 for a small fix. Wh
 
 ---
 
+## v0.7 — 8 Aug 2026
+
+**Added**
+- Cover style picker on every case study. Choose **Title card** (the project name set in large type on a dark gradient), **Flow lines**, **Blocks**, **Dot field**, or Auto, plus an accent colour. The editor previews your choice as you change it
+- Covers are no longer left to chance — Auto is now opt-in rather than the only behaviour
+
+## v0.6.3 — 8 Aug 2026
+
+**Fixed**
+- Blank hero numbers rendered as empty boxes with dividers. Empty rows are now skipped, the strip hides itself entirely if none are filled in, and the columns adapt to however many you have
+
+## v0.6.2 — 8 Aug 2026
+
+**Fixed**
+- The Focus line clipped its own text. Its height was set in `em`, which resolved against the inherited body size rather than the much larger display size, leaving the box about half as tall as the words. It now sizes from the same font, with headroom for descenders
+- More breathing room between the hand-drawn underline and the Focus line
+- Long focus phrases now truncate rather than overflowing on narrow screens
+
 ## v0.6.1 — 8 Aug 2026
 
 **Fixed**
