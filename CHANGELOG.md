@@ -6,6 +6,21 @@ Versions step up by 0.1 for a batch of changes, and by 0.0.1 for a small fix. Wh
 
 ---
 
+## v0.4 — 8 Aug 2026
+
+**Added**
+- Toolset is now a sorting game: pick a tool, choose the discipline it belongs to. Wrong guesses shake the column, right ones slot in. "Show me the answers" and "Just show the list" are always one click away for anyone who'd rather just read it
+
+**Changed**
+- Case study intro text now sits under the heading instead of floating off to the right
+- Card grid reflows by available width, so a single case study no longer sits in half a row
+- The button in the detail panel is now Share, using the phone's share sheet, with copy-to-clipboard as the fallback. Sharing a blog post uses the post's title
+
+## v0.3.1 — 8 Aug 2026
+
+**Fixed**
+- Scroll rail stayed on "Writing" while you were reading the contact section. The last section is now selected once the page reaches the bottom, since a short final section never crosses the midpoint of the screen
+
 ## v0.3 — 8 Aug 2026
 
 **Added**
