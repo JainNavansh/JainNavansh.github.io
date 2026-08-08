@@ -6,6 +6,28 @@ Versions step up by 0.1 for a batch of changes, and by 0.0.1 for a small fix. Wh
 
 ---
 
+## v0.7.3 — 8 Aug 2026
+
+**Changed**
+- The page was locked to 1180px, so on a 1920px screen a third of the display was empty margin. The shell now grows to 1560px, giving about 1470px of content instead of 1120px, and case studies fit four across on a wide monitor
+- Side padding and section spacing now scale with the viewport rather than sitting at fixed values, so the page breathes proportionally instead of getting relatively tighter as screens get bigger
+- The hero graph takes a slightly larger share of the row and is a little less letterboxed
+- Prose keeps its own maximum width as the shell widens, so lines never get uncomfortably long to read
+
+## v0.7.2 — 8 Aug 2026
+
+**Changed**
+- The toolset now resolves into something clearly structured. The playground grid fades away, a card appears behind each group, and the chips shed their pill outlines to become plain list rows with an accent marker
+- The bin shrinks to fit once tidied, instead of leaving empty space below the list
+- Four groups now lay out as a 2×2 grid rather than three across with one stranded underneath
+
+## v0.7.1 — 8 Aug 2026
+
+**Fixed**
+- Hero numbers never appeared. The editor saves them as key/value pairs but the site was reading a different pair of field names, so every entry looked blank and the strip hid itself. The site now accepts either naming
+- Experience dates showed only the start year when the end date was left empty. An incomplete range now falls back to whatever was typed by hand
+- Project slugs containing spaces broke their shareable links. Links are now encoded and decoded properly
+
 ## v0.7 — 8 Aug 2026
 
 **Added**
