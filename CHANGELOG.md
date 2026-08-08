@@ -6,6 +6,20 @@ Versions step up by 0.1 for a batch of changes, and by 0.0.1 for a small fix. Wh
 
 ---
 
+## v0.7.5 — 8 Aug 2026
+
+**Changed**
+- Hero numbers now start at zero from the moment the page loads, rather than showing the real figure and resetting when the strip scrolls into view
+- They count up in sequence, each starting about a tenth of a second after the one before, instead of all moving together
+- Slightly longer count, and it triggers a little earlier as the strip comes into view
+
+## v0.7.4 — 8 Aug 2026
+
+**Fixed**
+- Toolset groups overlapped each other once tidied. Each row's height was taken from its first group, so a taller neighbouring column ran straight through whatever sat below it
+- Group cards could extend past the right edge of the section. Cards now sit inside the container with proper inner padding, and headings and items align to that padding rather than the raw column edge
+- Cards in the same row now share a height, so the grid lines up instead of stepping
+
 ## v0.7.3 — 8 Aug 2026
 
 **Changed**
