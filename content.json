@@ -2,476 +2,162 @@
   "site": {
     "name": "Navansh Jain",
     "role": "Technical Artist",
-    "specialty": "tools, pipeline, procedural art",
-    "available": "Open to technical art roles",
-    "availableOn": true,
-    "lede": "I sit between <b>art and engineering</b> — building the tools, shaders and procedural systems that let artists ship more, faster, without fighting the pipeline.",
-    "aboutHeading": "Artists shouldn't have to think about the plumbing.",
-    "about": "Most of my work is invisible. It's the <b>exporter that stops breaking</b>, the shader that finally runs on the low-end target, the Houdini graph that generates in an afternoon what used to take a modeller a week.\nI care about <b>the seam</b> — where DCC meets engine, where a look-dev idea meets a frame budget. I write tools in Python and C#, author shaders in HLSL, and build procedural systems in Houdini that hand artists knobs instead of geometry.\nWhen something is slow or fragile, I'd rather fix the system than the symptom.",
-    "contactHeading": "Got a pipeline\nthat fights back?",
-    "contactBlurb": "I'm always up for talking shop — tools, shaders, procedural systems, or how to stop your exporter from eating a weekend."
+    "specialty": "EFFICICENY TOOLS PIPELINE",
+    "lede": "Test hero paragraph",
+    "aboutHeading": "This is me navansh jain testinmg the avout sectionb and how it works ",
+    "contactHeading": "Connect with me ",
+    "contactBlurb": "Have something broken or not working connect with me always happy to connect and learn"
   },
   "stats": [
     {
-      "n": "6+",
-      "l": "Years in production"
+      "k": "5+",
+      "v": "Years working with unreal"
     },
     {
-      "n": "12",
-      "l": "Shipped titles & tools"
+      "k": "2+",
+      "v": "Years of industry experince"
     },
     {
-      "n": "40+",
-      "l": "Artists supported"
+      "k": "40+",
+      "v": "Artists worked with"
     },
     {
-      "n": "3",
-      "l": "Engines in anger"
+      "k": "15+",
+      "v": "Live projects contributed"
     }
   ],
   "facts": [
     {
-      "k": "Based in",
-      "v": "Lucknow, India"
+      "k": "Based in ",
+      "v": "Lucknow, Uttarpradesh"
     },
     {
-      "k": "Focus",
-      "v": "Tools · Pipeline · Procedural"
-    },
-    {
-      "k": "Engines",
-      "v": "Unreal 5, Unity, Godot"
-    },
-    {
-      "k": "DCC",
-      "v": "Houdini, Blender, Maya"
-    },
-    {
-      "k": "Code",
-      "v": "Python, C#, C++, HLSL"
-    },
-    {
-      "k": "Currently",
-      "v": "Open to roles"
+      "k": "Orignally from ",
+      "v": "Indore, India"
     }
   ],
   "projects": [
     {
-      "slug": "asset-pipeline",
-      "title": "One-click asset pipeline",
-      "role": "Tools & Pipeline TA",
+      "slug": "game-project-solo",
+      "title": "Triyuga",
+      "role": "Indie artist",
       "year": "2025",
-      "cat": "Pipeline",
+      "cat": "Game",
       "tags": [
-        "Python",
-        "Unreal 5",
-        "Houdini",
-        "Automation"
+        "Game",
+        "Indie",
+        "Game devlopment",
+        "Unreal"
       ],
       "image": "",
-      "blurb": "Replaced a 14-step manual export ritual with a single button, validation included.",
+      "blurb": "Triyuga was a standalone indy mystery adventure game",
       "meta": [
-        {
-          "k": "Team",
-          "v": "9 artists, 2 engineers"
-        },
-        {
-          "k": "Duration",
-          "v": "4 months"
-        },
-        {
-          "k": "Engine",
-          "v": "Unreal Engine 5"
-        },
-        {
-          "k": "Role",
-          "v": "Sole TA"
-        }
-      ],
-      "problem": "Every environment asset passed through Blender, Substance and Unreal by hand. Naming drifted, LODs were forgotten, collision was inconsistent, and roughly one in five assets came back from review for a technical reason that had nothing to do with the art.",
-      "approach": [
-        "Wrote a <b>Python validation layer</b> that runs inside the DCC and blocks export on naming, scale, pivot, UV and material-slot violations — with a fix-it button for every rule that can be fixed automatically.",
-        "Built a <b>Houdini digital asset</b> that generates LOD chains and convex collision from the source mesh, tuned per asset class rather than per asset.",
-        "Wrapped the whole thing in an <b>Unreal commandlet</b> so the same path runs on an artist's machine and on the build farm — one code path, no drift.",
-        "Added a <b>dry-run diff view</b> so artists could see exactly what the tool would change before it changed anything. Trust came from that screen more than from the automation."
-      ],
-      "result": [
-        "Import-to-review time dropped from about 25 minutes to under 2.",
-        "Technical review rejections fell by roughly 80% within a single sprint.",
-        "Adopted by the whole environment team without a mandate — the dry-run view sold it."
-      ],
-      "impact": [
-        {
-          "k": "~92%",
-          "v": "less time per asset"
-        },
-        {
-          "k": "80%",
-          "v": "fewer tech rejections"
-        },
-        {
-          "k": "9",
-          "v": "artists onboarded"
-        }
-      ],
-      "learn": "The automation was the easy half. The half that mattered was making the tool legible — artists adopt what they can predict, and reject anything that silently changes their files.",
-      "video": "",
-      "media": []
-    },
-    {
-      "slug": "procedural-city",
-      "title": "Procedural city blockout system",
-      "role": "Procedural / Houdini TA",
-      "year": "2024",
-      "cat": "Procedural",
-      "tags": [
-        "Houdini",
-        "HDA",
-        "Level design",
-        "Unreal 5"
-      ],
-      "image": "",
-      "blurb": "A Houdini system that turns a hand-drawn spline into a fully lotted, art-directable city block.",
-      "meta": [
-        {
-          "k": "Team",
-          "v": "Level design + environment"
-        },
-        {
-          "k": "Duration",
-          "v": "5 months"
-        },
-        {
-          "k": "Engine",
-          "v": "Unreal Engine 5"
-        },
-        {
-          "k": "Role",
-          "v": "System owner"
-        }
-      ],
-      "problem": "Level designers needed to iterate on city layouts weekly, but every layout change meant environment artists re-kitting whole blocks by hand. Iteration effectively stopped after the first pass, which meant the level design was frozen long before it was good.",
-      "approach": [
-        "Built a <b>Houdini Digital Asset</b> driven by curves drawn directly in Unreal: streets in, lotted parcels out.",
-        "Layered the generator — <b>parcels → footprints → facades → props</b> — so any layer could be locked and hand-authored while everything downstream regenerated.",
-        "Exposed a small, opinionated set of controls: density, era, wealth, wear. Not fifty sliders; four that art direction actually had opinions about.",
-        "Added a <b>deterministic seed per parcel</b> so a designer moving one street didn't reshuffle the entire district."
-      ],
-      "result": [
-        "A district blockout went from ~3 weeks to under a day.",
-        "Level design kept iterating into late production instead of freezing early.",
-        "Environment artists moved from placing kit pieces to authoring the kit itself."
-      ],
-      "impact": [
-        {
-          "k": "3 wks → 1 day",
-          "v": "per district"
-        },
-        {
-          "k": "4",
-          "v": "art-direction knobs"
-        },
-        {
-          "k": "100%",
-          "v": "deterministic reruns"
-        }
-      ],
-      "learn": "Determinism was the feature nobody asked for and everybody relied on. A procedural system people can't predict is a system people stop using.",
-      "video": "",
-      "media": []
-    },
-    {
-      "slug": "shader-budget",
-      "title": "Shader library & frame budget rescue",
-      "role": "Shader / Optimisation TA",
-      "year": "2024",
-      "cat": "Shaders",
-      "tags": [
-        "HLSL",
-        "Unity URP",
-        "Profiling",
-        "Mobile"
-      ],
-      "image": "",
-      "blurb": "Consolidated 60+ ad-hoc shaders into a documented library and won back 4ms on the target device.",
-      "meta": [
-        {
-          "k": "Team",
-          "v": "Art + rendering"
-        },
-        {
-          "k": "Duration",
-          "v": "3 months"
-        },
-        {
-          "k": "Engine",
-          "v": "Unity (URP)"
-        },
-        {
-          "k": "Role",
-          "v": "Shader lead"
-        }
-      ],
-      "problem": "The project had accumulated sixty-plus one-off shaders with overlapping features, no naming convention and no owner. The mid-tier Android target was blowing its frame budget and nobody could say which material was responsible.",
-      "approach": [
-        "Profiled per-material GPU cost and built a <b>shader cost dashboard</b> in-editor so artists could see the price of what they were assigning.",
-        "Consolidated into <b>six uber-shaders with keyword variants</b>, each documented with a feature matrix and an explicit cost tier.",
-        "Wrote a <b>migration tool</b> that remapped legacy materials automatically and flagged the handful that needed an artist's eye.",
-        "Added a <b>CI check</b> that fails the build when variant count or a material's cost tier crosses a threshold."
-      ],
-      "result": [
-        "Roughly 4ms recovered on the mid-tier Android target.",
-        "Shader variant count cut by about 70%, taking several minutes off build times.",
-        "Artists could finally see cost at assignment time, so the problem stopped recurring."
-      ],
-      "impact": [
-        {
-          "k": "4ms",
-          "v": "recovered per frame"
-        },
-        {
-          "k": "60+ → 6",
-          "v": "shaders"
-        },
-        {
-          "k": "~70%",
-          "v": "fewer variants"
-        }
-      ],
-      "learn": "Optimisation that isn't visible regresses. The dashboard mattered more than any individual shader rewrite, because it changed what artists chose before it became a problem.",
-      "video": "",
-      "media": []
-    },
-    {
-      "slug": "rig-toolkit",
-      "title": "Rigging & animation toolkit",
-      "role": "Rigging TA",
-      "year": "2023",
-      "cat": "Pipeline",
-      "tags": [
-        "Python",
-        "Maya",
-        "Unreal 5",
-        "Modular rigs"
-      ],
-      "image": "",
-      "blurb": "A modular rig builder that made character rigs rebuildable instead of precious.",
-      "meta": [
-        {
-          "k": "Team",
-          "v": "4 animators, 2 char artists"
-        },
         {
           "k": "Duration",
           "v": "6 months"
-        },
-        {
-          "k": "Engine",
-          "v": "Maya → Unreal 5"
-        },
-        {
-          "k": "Role",
-          "v": "Sole TA"
         }
       ],
-      "problem": "Rigs were hand-built and effectively unrepairable. A proportion change late in production meant either living with a broken rig or rebuilding from scratch and losing every animation authored against it.",
+      "problem": "Only 6 months entire pipeline and research",
       "approach": [
-        "Built a <b>modular rig system</b> in Python — limbs, spines and faces as composable modules described by a JSON guide file.",
-        "Made the rig a <b>build artefact</b>: guides are the source of truth, the rig is regenerated, so a proportion change is a rebuild rather than surgery.",
-        "Wrote a <b>skin-weight transfer and validation</b> pass so rebuilds preserved deformation quality within a measured tolerance.",
-        "Automated the <b>Unreal export</b>: skeleton naming, retarget setup and physics assets generated from the same guide data."
+        "solo devloper worked on everything and anything"
       ],
       "result": [
-        "Rig rebuilds went from days to minutes.",
-        "Late proportion changes stopped being a negotiation.",
-        "Animators got a consistent control layout across every character in the game."
+        "built game using unreal enigne with ui and everyrthing ewlse from visualk to sound that a game needs"
       ],
-      "impact": [
-        {
-          "k": "days → mins",
-          "v": "per rebuild"
-        },
-        {
-          "k": "12",
-          "v": "characters shipped"
-        },
-        {
-          "k": "1",
-          "v": "control layout"
-        }
-      ],
-      "learn": "Treating the rig as generated output rather than a hand-made artefact changed the team's relationship with risk. Things you can rebuild cheaply stop being scary to change.",
-      "video": "",
-      "media": []
+      "impact": [],
+      "learn": "make more of these "
     }
   ],
   "experience": [
     {
-      "role": "Technical Artist",
-      "org": "Independent / Contract",
+      "role": "Game desinger",
+      "org": "Playschool",
+      "when": "2023-24",
       "bullets": [
-        "Building <b>tools and procedural systems</b> for studios that need a pipeline unstuck without a permanent hire.",
-        "Houdini digital assets for environment generation, plus Python tooling for Unreal and Unity import pipelines.",
-        "Shader authoring and optimisation work against fixed frame budgets on mobile and mid-tier PC targets.",
-        "Writing about the work publicly — see the writing section."
-      ],
-      "fromMonth": "Feb",
-      "fromYear": "2024",
-      "toMonth": "",
-      "toYear": "",
-      "present": true,
-      "image": "",
-      "video": ""
+        "I was lead game designer at playscool an incubated startup at UPES dehradun"
+      ]
     },
     {
-      "role": "Technical Artist",
-      "org": "Game studio (mid-size)",
+      "role": "Level Desinger",
+      "org": "Insanity crew",
+      "when": "2024-24",
       "bullets": [
-        "Owned the <b>art-to-engine pipeline</b> for an Unreal 5 title: validation, automated LODs, collision and import tooling.",
-        "Shipped a shader library consolidation that recovered around 4ms on the target device.",
-        "Ran <b>onboarding and tooling support</b> for a 40-person art team, including documentation and office hours.",
-        "Partnered with rendering engineers on profiling and budget enforcement in CI."
-      ],
-      "fromMonth": "Jan",
-      "fromYear": "2022",
-      "toMonth": "Feb",
-      "toYear": "2024",
-      "present": false,
-      "image": "",
-      "video": ""
+        "I was a Level deisgner working on specific parts of level design for anat shrinkhala of insanity crew"
+      ]
     },
     {
-      "role": "Junior Technical Artist",
-      "org": "Studio / Outsourcing",
+      "role": "3D Genralist",
+      "org": "Catchmflixx Entertainment",
+      "when": "2024-24",
       "bullets": [
-        "Wrote <b>Maya and Blender scripts</b> to automate repetitive prep, cleanup and export tasks.",
-        "Built the first version of a modular rigging toolkit still in use.",
-        "Supported outsourcing partners with asset specs, validation tooling and turnaround feedback."
-      ],
-      "fromMonth": "Jun",
-      "fromYear": "2020",
-      "toMonth": "Dec",
-      "toYear": "2022",
-      "present": false,
-      "image": "",
-      "video": ""
+        "I was Lead 3D genralist for CMF an indeginopus short web serise platform making animated content using unreal we worked with UNreal,Maya,Marvelous my role was of improving and enhancing the pipeline"
+      ]
     },
     {
-      "role": "3D Artist → tooling",
-      "org": "Freelance",
+      "role": "Lead Technical Artist",
+      "org": "Ink in caps",
+      "when": "2025-Present",
       "bullets": [
-        "Started as an environment artist and drifted into <b>writing the tools</b> I kept wishing existed.",
-        "First shipped tool: a batch UV and naming fixer that saved a team about a day a week."
-      ],
-      "fromMonth": "Mar",
-      "fromYear": "2019",
-      "toMonth": "May",
-      "toYear": "2020",
-      "present": false,
-      "image": "",
-      "video": ""
+        "Lead technical artist owning products",
+        "Pipeline",
+        "R&D",
+        "Library",
+        "improving number of projects deliverd in an year"
+      ]
     }
   ],
   "skills": [
     {
-      "h": "Tools & scripting",
+      "h": "PCG TOOLS",
       "items": [
-        "Python (Maya, Blender, Houdini)",
-        "C# — Unity editor tooling",
-        "C++ / Blueprints — Unreal",
-        "PySide / Qt interfaces",
-        "Git, CI automation"
-      ],
-      "image": "",
-      "video": ""
+        "PCG NEW TOOLS",
+        "PCG PRO"
+      ]
     },
     {
-      "h": "Procedural & shading",
+      "h": "Master Widget",
       "items": [
-        "Houdini + HDAs",
-        "HLSL / shader authoring",
-        "Shader Graph, Material Editor",
-        "Substance Designer",
-        "Geometry Nodes"
-      ],
-      "image": "",
-      "video": ""
+        "Selection",
+        "Optimisation",
+        "DA Edtior"
+      ]
     },
     {
-      "h": "Pipeline & performance",
+      "h": "Editor Tools",
       "items": [
-        "Asset validation systems",
-        "GPU / CPU profiling",
-        "LOD & collision automation",
-        "Rigging & retarget pipelines",
-        "Build & variant budgets"
-      ],
-      "image": "",
-      "video": ""
+        "Asset action Utility",
+        "Scriptable tools"
+      ]
+    },
+    {
+      "h": "Data analyser",
+      "items": [
+        "Dashboard",
+        "Data reader from unreal;"
+      ]
     }
   ],
   "posts": [
     {
-      "slug": "trust-your-tools",
-      "date": "12 Jun 2026",
-      "title": "Artists don't distrust your tool. They distrust surprises.",
-      "excerpt": "Why a dry-run screen did more for adoption than any feature I shipped.",
-      "body": "<p>Every tool I've shipped that failed, failed for the same reason: it changed something the artist didn't expect. Not incorrectly — just invisibly.</p><h3>The pattern</h3><p>You build automation. It works. Someone runs it on a file they cared about, something changes that they didn't ask for, and from that day forward they run the manual path 'just to be safe.' You've now got two pipelines and one of them is a rumour.</p><h3>What actually worked</h3><p>A dry-run view. Before anything is written, show a plain diff: these fifteen files, these four properties, these two things I refuse to touch. It cost me a week. Adoption went from three people to the whole team.</p><p>The lesson generalises past tools. Trust in a pipeline is a function of predictability, not correctness. A slightly worse tool people can predict beats a better one that surprises them.</p>",
-      "image": "",
-      "video": "",
-      "media": []
-    },
-    {
-      "slug": "houdini-determinism",
-      "date": "28 Apr 2026",
-      "title": "Seed per parcel: making procedural systems boring on purpose",
-      "excerpt": "Determinism is the feature nobody requests and everybody depends on.",
-      "body": "<p>The first version of the city generator reshuffled everything when a designer nudged one street. Technically fine. Practically unusable.</p><h3>Global seeds are a trap</h3><p>A single global seed means any upstream change ripples through every downstream decision. The designer moves a road, and a building they'd approved three blocks away becomes a different building. They stop trusting the system and start hand-placing again.</p><h3>Seed by stable identity</h3><p>Instead, derive a seed per parcel from something stable — position quantised to a grid, or an explicit ID. Now a change is local. The block you touched changes; the district doesn't.</p><p>It made the system boring, and boring is what let people build on top of it.</p>",
-      "image": "",
-      "video": "",
-      "media": []
-    },
-    {
-      "slug": "shader-cost-visible",
-      "date": "03 Feb 2026",
-      "title": "Make cost visible at the moment of choice",
-      "excerpt": "Optimisation that isn't visible regresses within a sprint.",
-      "body": "<p>I spent three months clawing back 4ms. Without one small addition, I'd have spent the next three months clawing it back again.</p><h3>The dashboard</h3><p>An in-editor panel showing the GPU cost tier of every material as an artist assigns it. Green, amber, red. No numbers to interpret, no profiler to open.</p><h3>Why it held</h3><p>Optimisation passes fix the past. A visible budget changes the future — it moves the decision from cleanup to authoring time, where it's free. Pair it with a CI check so the budget has teeth, and the win stops leaking.</p>",
-      "image": "",
-      "video": "",
-      "media": []
-    },
-    {
-      "slug": "ta-career-note",
-      "date": "19 Nov 2025",
-      "title": "Nobody hires a technical artist for the tools",
-      "excerpt": "They hire you for the time the tools give back.",
-      "body": "<p>Early on I described my work as 'I write tools.' It never landed in interviews.</p><h3>Reframe</h3><p>Nobody buys a tool. They buy the outcome: the environment team iterating a week longer, the build going out on time, the artist not losing a Friday to an exporter. Lead with the recovered time and the shipped thing, and let the implementation be the supporting detail.</p><h3>Practically</h3><p>Every case study I write now opens with what was slow or broken, and closes with what changed. The clever part in the middle is for the people who ask.</p>",
-      "image": "",
-      "video": "",
-      "media": []
+      "slug": "new-post",
+      "date": "08 Aug 2026",
+      "title": "Let the optimisation begin",
+      "excerpt": "Lern basics of optimisation",
+      "body": "What is optimisation i nthe end all you have is a budget "
     }
   ],
   "social": [
     {
+      "k": "Artstation",
+      "v": "https://www.artstation.com/navanshjain1010"
+    },
+    {
       "k": "Email",
-      "v": "mailto:hello@example.com"
+      "v": "navanshjain2002@gmail.com"
     },
     {
-      "k": "GitHub",
-      "v": "https://github.com/"
-    },
-    {
-      "k": "LinkedIn",
-      "v": "https://linkedin.com/"
-    },
-    {
-      "k": "ArtStation",
-      "v": "https://artstation.com/"
-    },
-    {
-      "k": "X / Twitter",
-      "v": "https://x.com/"
+      "k": "Linkdien",
+      "v": "https://www.linkedin.com/in/navansh-jain-415bb01b1/"
     }
   ]
 }
