@@ -8,6 +8,7 @@
     "contactHeading": "Lets Connect",
     "contactBlurb": "If something’s broken, not behaving, or could be better — let’s talk. I’m always open to collaboration, troubleshooting, and learning new approaches. Reach out for project inquiries, tool requests, or technical questions; I’ll usually reply quickly and enjoy digging into tricky problems.",
     "avatar": "images/Profilephoto.jpeg",
+    "cover": "images/navansh-jain-4.jpg",
     "available": "Open to Partnerships",
     "about": "I’m Navansh Jain, a senior technical artist specializing in real-time content for architectural visualization. I’ve spent years working in Unreal Engine, building tools, systems, and procedural workflows that help artists move faster and keep visuals believable. I care about practical engineering, polished visuals, and workflows that scale — whether that means editor tools, optimization, or automating repetitive tasks. Outside work I’m a gamer at heart, and I bring that same focus on playability and impact to the systems I create."
   },
@@ -74,7 +75,7 @@
       "impact": [],
       "learn": "make more of these ",
       "media": [],
-      "video": "",
+      "video": "https://youtu.be/hBRhbY7Ofvc?si=1m7O5SFOOMOhMKb6",
       "coverStyle": "title",
       "coverColor": "multi"
     },
@@ -270,5 +271,5 @@
       "v": "https://www.linkedin.com/in/navansh-jain-415bb01b1/"
     }
   ],
-  "version": "0.7"
+  "version": "0.7.3"
 }
