@@ -6,6 +6,35 @@ Versions step up by 0.1 for a batch of changes, and by 0.0.1 for a small fix. Wh
 
 ---
 
+## v0.6.1 — 8 Aug 2026
+
+**Fixed**
+- The Email button did nothing on desktop machines with no mail client configured. On desktop it now copies the address and confirms which one it copied. On phones and tablets it still opens the mail app, since mailto works reliably there
+
+## v0.6 — 8 Aug 2026
+
+**Changed**
+- Hero rebuilt. The role is bigger and tighter, with a hand-drawn underline that draws itself under the last word
+- The specialty is no longer a large block of grey caps competing with the title. It's now a single "Focus" line that cycles through your specialty phrases, one at a time, in accent blue
+- The opening paragraph is larger, and the hero elements fade up in sequence rather than all appearing at once
+- All motion is skipped for visitors who prefer reduced motion
+
+## v0.5.3 — 8 Aug 2026
+
+**Fixed**
+- Case study cards with less text showed a white gap above the cover image. Cards are buttons, and buttons centre their contents vertically, so shorter cards floated their content to the middle of the stretched row. Cards are now flex columns anchored to the top
+
+## v0.5.2 — 8 Aug 2026
+
+**Fixed**
+- Job title and company ran together on one line in the experience section. They now stack, with the company on its own line beneath the role
+- The mint timeline dot now marks whichever roles are current, rather than always the first entry in the list
+
+## v0.5.1 — 8 Aug 2026
+
+**Fixed**
+- Once the toolset has tidied itself, clicking or dragging a chip no longer re-drops the pile. The list stays put, and only the "Drop them again" button replays it. Chips also stop showing a grab cursor once they're settled
+
 ## v0.5 — 8 Aug 2026
 
 **Changed**

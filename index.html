@@ -69,10 +69,23 @@ p{margin:0 0 1em}
 .eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--paper-2);border-radius:100px;padding:5px 13px;margin-bottom:26px}
 .eyebrow .pulse{width:7px;height:7px;border-radius:50%;background:var(--mint);flex:none}
 .eyebrow span{font-family:var(--fm);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
-h1.title{font-size:clamp(46px,7.4vw,88px);line-height:.92}
-h1.title em{font-style:normal;display:block;color:var(--mute)}
-.lede{font-size:19px;color:var(--ink-2);max-width:44ch;margin-top:22px}
-.lede b{font-weight:600;color:var(--ink);box-shadow:inset 0 -.42em 0 rgba(79,70,229,.14)}
+h1.title{font-size:clamp(50px,8.2vw,102px);line-height:.86;letter-spacing:-.045em}
+h1.title .w{display:block}
+h1.title .mark{position:relative;display:inline-block}
+h1.title .mark svg{position:absolute;left:-2%;width:104%;height:.26em;bottom:-.1em;overflow:visible;pointer-events:none}
+h1.title .mark path{fill:none;stroke:var(--wire);stroke-width:8;stroke-linecap:round;stroke-dasharray:600;stroke-dashoffset:600;animation:draw 1.1s .55s forwards cubic-bezier(.2,.7,.3,1)}
+@keyframes draw{to{stroke-dashoffset:0}}
+.kicker{display:flex;align-items:baseline;gap:14px;margin-top:26px}
+.kicker .lab{font-family:var(--fm);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);flex:none;position:relative;top:-2px}
+.kicker .lab::after{content:"";display:inline-block;width:24px;height:1px;background:var(--line);margin-left:10px;vertical-align:middle}
+.rot{display:block;height:1.22em;overflow:hidden;position:relative}
+.rot span{display:block;font-family:var(--fd);font-weight:800;font-size:clamp(23px,3.4vw,36px);letter-spacing:-.03em;line-height:1.22;color:var(--wire);white-space:nowrap;transition:transform .52s cubic-bezier(.3,.8,.3,1),opacity .38s}
+.rot.out span{transform:translateY(-110%);opacity:0}
+.rot.in span{transform:translateY(110%);opacity:0;transition:none}
+.lede{font-size:20.5px;line-height:1.55;color:var(--ink-2);max-width:46ch;margin-top:26px}
+.lede b{font-weight:600;color:var(--ink);box-shadow:inset 0 -.42em 0 rgba(79,70,229,.16)}
+.st{opacity:0;transform:translateY(16px);animation:rise .8s cubic-bezier(.2,.7,.3,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
 .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
 .btn{font-family:var(--fb);font-size:14.5px;font-weight:500;text-decoration:none;padding:11px 20px;border-radius:var(--r);border:1px solid var(--ink);background:var(--ink);color:var(--paper-2);cursor:pointer;transition:transform .16s ease,background .16s ease}
 .btn:hover{transform:translateY(-2px)}
@@ -119,10 +132,10 @@ section.band{padding:88px 0;border-bottom:1px solid var(--line)}
 .chip:hover{border-color:var(--ink)}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper-2);border-color:var(--ink)}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:22px}
-.card{border:1px solid var(--line);border-radius:10px;background:var(--paper-2);overflow:hidden;text-align:left;cursor:pointer;padding:0;font:inherit;color:inherit;transition:transform .3s cubic-bezier(.2,.7,.3,1),border-color .3s}
+.card{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;border:1px solid var(--line);border-radius:10px;background:var(--paper-2);overflow:hidden;text-align:left;cursor:pointer;padding:0;font:inherit;color:inherit;transition:transform .3s cubic-bezier(.2,.7,.3,1),border-color .3s}
 .card:hover{transform:translateY(-4px);border-color:var(--ink)}
-.card canvas,.card img{width:100%;height:186px;display:block;background:#14161C;object-fit:cover}
-.card-body{padding:20px 22px 24px}
+.card canvas,.card img{width:100%;height:186px;display:block;background:#14161C;object-fit:cover;flex:none}
+.card-body{padding:20px 22px 24px;flex:1 1 auto;width:100%}
 .card-top{display:flex;justify-content:space-between;gap:14px;align-items:baseline;margin-bottom:8px}
 .card h3{font-size:24px}
 .card .yr{font-family:var(--fm);font-size:11.5px;color:var(--mute)}
@@ -140,8 +153,8 @@ section.band{padding:88px 0;border-bottom:1px solid var(--line)}
 .exp-btn{width:100%;background:none;border:0;padding:24px 0;display:grid;grid-template-columns:150px auto 1fr 30px;gap:18px;align-items:center;cursor:pointer;text-align:left;font:inherit;color:inherit}
 .exp-btn:hover .exp-role{color:var(--wire)}
 .exp-when{font-family:var(--fm);font-size:12px;color:var(--mute);letter-spacing:.05em}
-.exp-role{font-family:var(--fd);font-size:26px;font-weight:800;letter-spacing:-.03em;transition:color .2s}
-.exp-org{font-size:14.5px;color:var(--ink-2);margin-top:4px}
+.exp-role{display:block;font-family:var(--fd);font-size:26px;font-weight:800;letter-spacing:-.03em;line-height:1.15;transition:color .2s}
+.exp-org{display:block;font-size:14.5px;color:var(--ink-2);margin-top:6px}
 .exp-plus{justify-self:end;width:24px;height:24px;position:relative;flex:none;align-self:center}
 .exp-plus::before,.exp-plus::after{content:"";position:absolute;background:var(--ink);left:50%;top:50%;transform:translate(-50%,-50%);transition:transform .3s}
 .exp-plus::before{width:13px;height:1.5px}
@@ -209,8 +222,9 @@ footer{padding:30px 0;border-top:1px solid var(--line)}
 .impact div{border-left:2px solid var(--mint);padding:4px 0 4px 14px;border-radius:0}
 .impact .n{font-family:var(--fd);font-size:29px;font-weight:800;letter-spacing:-.03em;line-height:1.1}
 .impact .l{font-size:13.5px;color:var(--mute)}
-.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);background:var(--ink);color:var(--paper-2);font-family:var(--fm);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;padding:11px 18px;border-radius:100px;opacity:0;pointer-events:none;transition:.3s;z-index:200}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);background:var(--ink);color:var(--paper-2);font-family:var(--fm);font-size:11.5px;letter-spacing:.06em;padding:11px 18px;border-radius:100px;opacity:0;pointer-events:none;transition:.3s;z-index:200;max-width:calc(100vw - 32px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .toast.on{opacity:1;transform:translate(-50%,0)}
+
 
 
 
@@ -230,6 +244,8 @@ footer{padding:30px 0;border-top:1px solid var(--line)}
   opacity:0;transition:opacity .5s;pointer-events:none;z-index:1;white-space:nowrap}
 .bin-head::after{content:"";display:block;height:1px;background:var(--line);margin-top:9px;width:100%}
 .bin.tidy .bin-head{opacity:1}
+.bin.tidy .bchip{cursor:default;box-shadow:none}
+.bin.tidy .bchip:active{cursor:default}
 .bin-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px}
 .bin-status{font-size:15px;color:var(--ink-2);margin:0;margin-right:auto}
 .bin-btn{font-family:var(--fm);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:7px 13px;
@@ -251,7 +267,7 @@ figcaption{font-family:var(--fm);font-size:11px;letter-spacing:.05em;color:var(-
 .yt:hover .play{background:var(--wire);transform:translate(-50%,-50%) scale(1.06)}
 .yt .play::after{content:"";border-left:13px solid #fff;border-top:8px solid transparent;border-bottom:8px solid transparent;margin-left:3px}
 .yt .lbl{position:absolute;left:10px;bottom:9px;font-family:var(--fm);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(20,22,28,.7);padding:4px 8px;border-radius:3px}
-.card .cover{position:relative}
+.card .cover{position:relative;flex:none;width:100%}
 .card .cover .badge{position:absolute;right:10px;top:10px;width:30px;height:22px;border-radius:5px;background:rgba(20,22,28,.8);display:flex;align-items:center;justify-content:center}
 .card .cover .badge::after{content:"";border-left:8px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent;margin-left:2px}
 .skillcol .sm{margin-top:16px}
@@ -282,7 +298,7 @@ figcaption{font-family:var(--fm);font-size:11px;letter-spacing:.05em;color:var(-
 .exp::before{content:"";position:absolute;left:5px;top:14px;bottom:14px;width:2px;background:var(--line)}
 .exp-row{position:relative}
 .exp-row::before{content:"";position:absolute;left:-26px;top:32px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--line);z-index:1;transition:.3s}
-.exp-row:first-child::before{border-color:var(--mint);background:var(--mint)}
+.exp-row.now::before{border-color:var(--mint);background:var(--mint)}
 .exp-row.open::before{border-color:var(--wire);background:var(--wire);transform:scale(1.25)}
 .exp-row:first-child{border-top:1px solid var(--line)}
 
@@ -321,6 +337,8 @@ figcaption{font-family:var(--fm);font-size:11px;letter-spacing:.05em;color:var(-
 }
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
+  .st{opacity:1;transform:none;animation:none}
+  h1.title .mark path{stroke-dashoffset:0;animation:none}
   *{animation-duration:.01ms!important;transition-duration:.01ms!important}
   .reveal{opacity:1;transform:none}
 }
@@ -352,6 +370,7 @@ figcaption{font-family:var(--fm);font-size:11px;letter-spacing:.05em;color:var(-
     <div>
       <div class="eyebrow" id="eyebrow"><span class="pulse"></span><span id="availText"></span></div>
       <h1 class="title" id="heroTitle"></h1>
+      <div class="kicker" id="heroKicker" hidden><span class="lab">Focus</span><span class="rot" id="rot"><span></span></span></div>
       <p class="lede" id="heroLede"></p>
       <div class="cta-row">
         <a class="btn" href="#work">See the work</a>
@@ -450,7 +469,7 @@ figcaption{font-family:var(--fm);font-size:11px;letter-spacing:.05em;color:var(-
 
 <script>
 const DEFAULT_DATA = {"site":{"name":"Navansh Jain","role":"Technical Artist","specialty":"tools, pipeline, procedural art","available":"Open to technical art roles","availableOn":true,"lede":"I sit between <b>art and engineering</b> — building the tools, shaders and procedural systems that let artists ship more, faster, without fighting the pipeline.","aboutHeading":"Artists shouldn't have to think about the plumbing.","about":"Most of my work is invisible. It's the <b>exporter that stops breaking</b>, the shader that finally runs on the low-end target, the Houdini graph that generates in an afternoon what used to take a modeller a week.\nI care about <b>the seam</b> — where DCC meets engine, where a look-dev idea meets a frame budget. I write tools in Python and C#, author shaders in HLSL, and build procedural systems in Houdini that hand artists knobs instead of geometry.\nWhen something is slow or fragile, I'd rather fix the system than the symptom.","contactHeading":"Got a pipeline\nthat fights back?","contactBlurb":"I'm always up for talking shop — tools, shaders, procedural systems, or how to stop your exporter from eating a weekend.","avatar":"","cover":"","footNote":"Designed and built with AI assistance"},"stats":[{"n":"6+","l":"Years in production"},{"n":"12","l":"Shipped titles & tools"},{"n":"40+","l":"Artists supported"},{"n":"3","l":"Engines in anger"}],"facts":[{"k":"Based in","v":"Lucknow, India"},{"k":"Focus","v":"Tools · Pipeline · Procedural"},{"k":"Engines","v":"Unreal 5, Unity, Godot"},{"k":"DCC","v":"Houdini, Blender, Maya"},{"k":"Code","v":"Python, C#, C++, HLSL"},{"k":"Currently","v":"Open to roles"}],"projects":[{"slug":"asset-pipeline","title":"One-click asset pipeline","role":"Tools & Pipeline TA","year":"2025","cat":"Pipeline","tags":["Python","Unreal 5","Houdini","Automation"],"image":"","blurb":"Replaced a 14-step manual export ritual with a single button, validation included.","meta":[{"k":"Team","v":"9 artists, 2 engineers"},{"k":"Duration","v":"4 months"},{"k":"Engine","v":"Unreal Engine 5"},{"k":"Role","v":"Sole TA"}],"problem":"Every environment asset passed through Blender, Substance and Unreal by hand. Naming drifted, LODs were forgotten, collision was inconsistent, and roughly one in five assets came back from review for a technical reason that had nothing to do with the art.","approach":["Wrote a <b>Python validation layer</b> that runs inside the DCC and blocks export on naming, scale, pivot, UV and material-slot violations — with a fix-it button for every rule that can be fixed automatically.","Built a <b>Houdini digital asset</b> that generates LOD chains and convex collision from the source mesh, tuned per asset class rather than per asset.","Wrapped the whole thing in an <b>Unreal commandlet</b> so the same path runs on an artist's machine and on the build farm — one code path, no drift.","Added a <b>dry-run diff view</b> so artists could see exactly what the tool would change before it changed anything. Trust came from that screen more than from the automation."],"result":["Import-to-review time dropped from about 25 minutes to under 2.","Technical review rejections fell by roughly 80% within a single sprint.","Adopted by the whole environment team without a mandate — the dry-run view sold it."],"impact":[{"k":"~92%","v":"less time per asset"},{"k":"80%","v":"fewer tech rejections"},{"k":"9","v":"artists onboarded"}],"learn":"The automation was the easy half. The half that mattered was making the tool legible — artists adopt what they can predict, and reject anything that silently changes their files.","video":"","media":[]},{"slug":"procedural-city","title":"Procedural city blockout system","role":"Procedural / Houdini TA","year":"2024","cat":"Procedural","tags":["Houdini","HDA","Level design","Unreal 5"],"image":"","blurb":"A Houdini system that turns a hand-drawn spline into a fully lotted, art-directable city block.","meta":[{"k":"Team","v":"Level design + environment"},{"k":"Duration","v":"5 months"},{"k":"Engine","v":"Unreal Engine 5"},{"k":"Role","v":"System owner"}],"problem":"Level designers needed to iterate on city layouts weekly, but every layout change meant environment artists re-kitting whole blocks by hand. Iteration effectively stopped after the first pass, which meant the level design was frozen long before it was good.","approach":["Built a <b>Houdini Digital Asset</b> driven by curves drawn directly in Unreal: streets in, lotted parcels out.","Layered the generator — <b>parcels → footprints → facades → props</b> — so any layer could be locked and hand-authored while everything downstream regenerated.","Exposed a small, opinionated set of controls: density, era, wealth, wear. Not fifty sliders; four that art direction actually had opinions about.","Added a <b>deterministic seed per parcel</b> so a designer moving one street didn't reshuffle the entire district."],"result":["A district blockout went from ~3 weeks to under a day.","Level design kept iterating into late production instead of freezing early.","Environment artists moved from placing kit pieces to authoring the kit itself."],"impact":[{"k":"3 wks → 1 day","v":"per district"},{"k":"4","v":"art-direction knobs"},{"k":"100%","v":"deterministic reruns"}],"learn":"Determinism was the feature nobody asked for and everybody relied on. A procedural system people can't predict is a system people stop using.","video":"","media":[]},{"slug":"shader-budget","title":"Shader library & frame budget rescue","role":"Shader / Optimisation TA","year":"2024","cat":"Shaders","tags":["HLSL","Unity URP","Profiling","Mobile"],"image":"","blurb":"Consolidated 60+ ad-hoc shaders into a documented library and won back 4ms on the target device.","meta":[{"k":"Team","v":"Art + rendering"},{"k":"Duration","v":"3 months"},{"k":"Engine","v":"Unity (URP)"},{"k":"Role","v":"Shader lead"}],"problem":"The project had accumulated sixty-plus one-off shaders with overlapping features, no naming convention and no owner. The mid-tier Android target was blowing its frame budget and nobody could say which material was responsible.","approach":["Profiled per-material GPU cost and built a <b>shader cost dashboard</b> in-editor so artists could see the price of what they were assigning.","Consolidated into <b>six uber-shaders with keyword variants</b>, each documented with a feature matrix and an explicit cost tier.","Wrote a <b>migration tool</b> that remapped legacy materials automatically and flagged the handful that needed an artist's eye.","Added a <b>CI check</b> that fails the build when variant count or a material's cost tier crosses a threshold."],"result":["Roughly 4ms recovered on the mid-tier Android target.","Shader variant count cut by about 70%, taking several minutes off build times.","Artists could finally see cost at assignment time, so the problem stopped recurring."],"impact":[{"k":"4ms","v":"recovered per frame"},{"k":"60+ → 6","v":"shaders"},{"k":"~70%","v":"fewer variants"}],"learn":"Optimisation that isn't visible regresses. The dashboard mattered more than any individual shader rewrite, because it changed what artists chose before it became a problem.","video":"","media":[]},{"slug":"rig-toolkit","title":"Rigging & animation toolkit","role":"Rigging TA","year":"2023","cat":"Pipeline","tags":["Python","Maya","Unreal 5","Modular rigs"],"image":"","blurb":"A modular rig builder that made character rigs rebuildable instead of precious.","meta":[{"k":"Team","v":"4 animators, 2 char artists"},{"k":"Duration","v":"6 months"},{"k":"Engine","v":"Maya → Unreal 5"},{"k":"Role","v":"Sole TA"}],"problem":"Rigs were hand-built and effectively unrepairable. A proportion change late in production meant either living with a broken rig or rebuilding from scratch and losing every animation authored against it.","approach":["Built a <b>modular rig system</b> in Python — limbs, spines and faces as composable modules described by a JSON guide file.","Made the rig a <b>build artefact</b>: guides are the source of truth, the rig is regenerated, so a proportion change is a rebuild rather than surgery.","Wrote a <b>skin-weight transfer and validation</b> pass so rebuilds preserved deformation quality within a measured tolerance.","Automated the <b>Unreal export</b>: skeleton naming, retarget setup and physics assets generated from the same guide data."],"result":["Rig rebuilds went from days to minutes.","Late proportion changes stopped being a negotiation.","Animators got a consistent control layout across every character in the game."],"impact":[{"k":"days → mins","v":"per rebuild"},{"k":"12","v":"characters shipped"},{"k":"1","v":"control layout"}],"learn":"Treating the rig as generated output rather than a hand-made artefact changed the team's relationship with risk. Things you can rebuild cheaply stop being scary to change.","video":"","media":[]}],"experience":[{"role":"Technical Artist","org":"Independent / Contract","bullets":["Building <b>tools and procedural systems</b> for studios that need a pipeline unstuck without a permanent hire.","Houdini digital assets for environment generation, plus Python tooling for Unreal and Unity import pipelines.","Shader authoring and optimisation work against fixed frame budgets on mobile and mid-tier PC targets.","Writing about the work publicly — see the writing section."],"fromMonth":"Feb","fromYear":"2024","toMonth":"","toYear":"","present":true,"image":"","video":""},{"role":"Technical Artist","org":"Game studio (mid-size)","bullets":["Owned the <b>art-to-engine pipeline</b> for an Unreal 5 title: validation, automated LODs, collision and import tooling.","Shipped a shader library consolidation that recovered around 4ms on the target device.","Ran <b>onboarding and tooling support</b> for a 40-person art team, including documentation and office hours.","Partnered with rendering engineers on profiling and budget enforcement in CI."],"fromMonth":"Jan","fromYear":"2022","toMonth":"Feb","toYear":"2024","present":false,"image":"","video":""},{"role":"Junior Technical Artist","org":"Studio / Outsourcing","bullets":["Wrote <b>Maya and Blender scripts</b> to automate repetitive prep, cleanup and export tasks.","Built the first version of a modular rigging toolkit still in use.","Supported outsourcing partners with asset specs, validation tooling and turnaround feedback."],"fromMonth":"Jun","fromYear":"2020","toMonth":"Dec","toYear":"2022","present":false,"image":"","video":""},{"role":"3D Artist → tooling","org":"Freelance","bullets":["Started as an environment artist and drifted into <b>writing the tools</b> I kept wishing existed.","First shipped tool: a batch UV and naming fixer that saved a team about a day a week."],"fromMonth":"Mar","fromYear":"2019","toMonth":"May","toYear":"2020","present":false,"image":"","video":""}],"skills":[{"h":"Tools & scripting","items":["Python (Maya, Blender, Houdini)","C# — Unity editor tooling","C++ / Blueprints — Unreal","PySide / Qt interfaces","Git, CI automation"],"image":"","video":""},{"h":"Procedural & shading","items":["Houdini + HDAs","HLSL / shader authoring","Shader Graph, Material Editor","Substance Designer","Geometry Nodes"],"image":"","video":""},{"h":"Pipeline & performance","items":["Asset validation systems","GPU / CPU profiling","LOD & collision automation","Rigging & retarget pipelines","Build & variant budgets"],"image":"","video":""}],"posts":[{"slug":"trust-your-tools","date":"12 Jun 2026","title":"Artists don't distrust your tool. They distrust surprises.","excerpt":"Why a dry-run screen did more for adoption than any feature I shipped.","body":"<p>Every tool I've shipped that failed, failed for the same reason: it changed something the artist didn't expect. Not incorrectly — just invisibly.</p><h3>The pattern</h3><p>You build automation. It works. Someone runs it on a file they cared about, something changes that they didn't ask for, and from that day forward they run the manual path 'just to be safe.' You've now got two pipelines and one of them is a rumour.</p><h3>What actually worked</h3><p>A dry-run view. Before anything is written, show a plain diff: these fifteen files, these four properties, these two things I refuse to touch. It cost me a week. Adoption went from three people to the whole team.</p><p>The lesson generalises past tools. Trust in a pipeline is a function of predictability, not correctness. A slightly worse tool people can predict beats a better one that surprises them.</p>","image":"","video":"","media":[]},{"slug":"houdini-determinism","date":"28 Apr 2026","title":"Seed per parcel: making procedural systems boring on purpose","excerpt":"Determinism is the feature nobody requests and everybody depends on.","body":"<p>The first version of the city generator reshuffled everything when a designer nudged one street. Technically fine. Practically unusable.</p><h3>Global seeds are a trap</h3><p>A single global seed means any upstream change ripples through every downstream decision. The designer moves a road, and a building they'd approved three blocks away becomes a different building. They stop trusting the system and start hand-placing again.</p><h3>Seed by stable identity</h3><p>Instead, derive a seed per parcel from something stable — position quantised to a grid, or an explicit ID. Now a change is local. The block you touched changes; the district doesn't.</p><p>It made the system boring, and boring is what let people build on top of it.</p>","image":"","video":"","media":[]},{"slug":"shader-cost-visible","date":"03 Feb 2026","title":"Make cost visible at the moment of choice","excerpt":"Optimisation that isn't visible regresses within a sprint.","body":"<p>I spent three months clawing back 4ms. Without one small addition, I'd have spent the next three months clawing it back again.</p><h3>The dashboard</h3><p>An in-editor panel showing the GPU cost tier of every material as an artist assigns it. Green, amber, red. No numbers to interpret, no profiler to open.</p><h3>Why it held</h3><p>Optimisation passes fix the past. A visible budget changes the future — it moves the decision from cleanup to authoring time, where it's free. Pair it with a CI check so the budget has teeth, and the win stops leaking.</p>","image":"","video":"","media":[]},{"slug":"ta-career-note","date":"19 Nov 2025","title":"Nobody hires a technical artist for the tools","excerpt":"They hire you for the time the tools give back.","body":"<p>Early on I described my work as 'I write tools.' It never landed in interviews.</p><h3>Reframe</h3><p>Nobody buys a tool. They buy the outcome: the environment team iterating a week longer, the build going out on time, the artist not losing a Friday to an exporter. Lead with the recovered time and the shipped thing, and let the implementation be the supporting detail.</p><h3>Practically</h3><p>Every case study I write now opens with what was slow or broken, and closes with what changed. The clever part in the middle is for the people who ask.</p>","image":"","video":"","media":[]}],"social":[{"k":"Email","v":"you@example.com"},{"k":"GitHub","v":"https://github.com/JainNavansh"},{"k":"LinkedIn","v":"https://linkedin.com/"},{"k":"ArtStation","v":"https://artstation.com/"}]};
-const VERSION = "0.5";
+const VERSION = "0.6.1";
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const reduce = !!(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
@@ -589,10 +608,22 @@ function render() {
   if (S.availableOn === false || !S.available) eb.style.display = "none";
   else { eb.style.display = ""; $("#availText").textContent = S.available; }
 
-  const sp = esc(S.specialty).split(", ");
-  const mid = Math.ceil(sp.length / 2);
-  const spec = sp.slice(0, mid).join(", ") + (sp.length > mid ? ",<br>" : "") + sp.slice(mid).join(", ");
-  $("#heroTitle").innerHTML = esc(S.role).split(" ").join("<br>") + (spec ? `<em>${spec}</em>` : "");
+  // title: each word on its own line, the last one underlined by hand
+  const words = esc(S.role).trim().split(/\s+/).filter(Boolean);
+  $("#heroTitle").innerHTML = words.map((w, i) =>
+    i === words.length - 1
+      ? `<span class="w"><span class="mark">${w}<svg viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 70 6, 150 20, 296 9"/></svg></span></span>`
+      : `<span class="w">${w}</span>`
+  ).join("");
+
+  // focus line: cycles through the specialty, one phrase at a time
+  const raw = String(S.specialty || "").trim();
+  const parts = (raw.includes(",") ? raw.split(",") : raw.split(/\s{1,}·\s{1,}|\n/))
+    .map(s => s.trim()).filter(Boolean);
+  const focus = (parts.length > 1 ? parts : raw.split(/\s+/)).filter(Boolean);
+  startRotator(focus);
+
+  $("#heroLede").innerHTML = S.lede || "";
   $("#heroLede").innerHTML = S.lede || "";
   $("#aboutHeading").textContent = S.aboutHeading || "";
   $("#aboutBody").innerHTML = String(S.about || "").split("\n").filter(Boolean).map(p => `<p>${p}</p>`).join("");
@@ -619,7 +650,7 @@ function render() {
   renderCards("All");
 
   $("#exp").innerHTML = (DATA.experience || []).map(x => `
-    <div class="exp-row">
+    <div class="exp-row${x.present ? " now" : ""}">
       <button class="exp-btn" aria-expanded="false">
         <span class="exp-when">${esc(whenLabel(x))}</span>
         ${x.image ? `<img class="exp-logo" src="${esc(x.image)}" alt="" loading="lazy">` : `<span></span>`}
@@ -685,6 +716,30 @@ function renderCards(cat = "All") {
 }
 
 
+
+/* the focus line cycles through the specialty phrases */
+let ROT = null;
+function startRotator(list) {
+  const box = $("#rot"), wrap = $("#heroKicker");
+  if (!box || !wrap) return;
+  if (ROT) clearInterval(ROT);
+  if (!list.length) { wrap.hidden = true; return; }
+  wrap.hidden = false;
+  const inner = box.firstElementChild;
+  inner.textContent = list[0];
+  if (list.length === 1 || reduce) return;
+  let i = 0;
+  ROT = setInterval(() => {
+    if (document.hidden) return;
+    box.classList.add("out");
+    setTimeout(() => {
+      i = (i + 1) % list.length;
+      inner.textContent = list[i];
+      box.classList.remove("out"); box.classList.add("in");
+      requestAnimationFrame(() => requestAnimationFrame(() => box.classList.remove("in")));
+    }, 400);
+  }, 2600);
+}
 
 /* ---------- toolset: gravity bin ---------- */
 let BIN = null;
@@ -871,7 +926,7 @@ function bindPointer() {
   bin.addEventListener("pointerdown", e => {
     const el = e.target.closest(".bchip"); if (!el) return;
     const c = BIN.chips.find(c2 => c2.el === el); if (!c) return;
-    if (BIN.state === "tidy") { drop(); return; }
+    if (BIN.state !== "play") return;
     const p = at(e);
     held = c; c.held = true; el.classList.add("held");
     off = { x: p.x - c.x, y: p.y - c.y }; lx = p.x; ly = p.y;
@@ -962,6 +1017,20 @@ document.addEventListener("click", e => {
   if (yt && yt.dataset.yt) {
     yt.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${yt.dataset.yt}?autoplay=1&rel=0" title="Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
     yt.removeAttribute("data-yt"); yt.style.cursor = "default"; return;
+  }
+  // mailto often does nothing on desktop when no mail client is set up,
+  // so copy the address there instead and say so. Phones handle mailto fine.
+  const mail = e.target.closest('a[href^="mailto:"]');
+  if (mail) {
+    const addr = mail.getAttribute("href").replace(/^mailto:/i, "").split("?")[0];
+    const coarse = window.matchMedia && matchMedia("(pointer: coarse)").matches;
+    if (!coarse) {
+      e.preventDefault();
+      navigator.clipboard && navigator.clipboard.writeText(addr)
+        .then(() => toast("Copied · " + addr))
+        .catch(() => { location.href = mail.getAttribute("href"); });
+      return;
+    }
   }
   if (e.target.closest("[data-close]")) return hide();
   const eb = e.target.closest(".exp-btn");
@@ -1122,6 +1191,12 @@ loadData().then(() => {
   route();
   initGraph();
   ["work", "experience", "skills", "writing", "contact"].forEach(id => { const s = $("#" + id); if (s) spy.observe(s); });
+  if (!reduce) {
+    [".eyebrow", "h1.title", "#heroKicker", ".lede", ".cta-row", ".graph-shell"].forEach((sel, i) => {
+      const el = $(sel); if (!el) return;
+      el.classList.add("st"); el.style.animationDelay = (i * 90) + "ms";
+    });
+  }
   buildRail(); onScroll();
   addEventListener("scroll", onScroll, { passive: true });
   $$(".reveal").forEach(el => rev.observe(el));
