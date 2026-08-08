@@ -2,16 +2,20 @@
   "site": {
     "name": "Navansh Jain",
     "role": "Technical Artist",
-    "specialty": "EFFICICENY TOOLS PIPELINE",
-    "lede": "Test hero paragraph",
-    "aboutHeading": "This is me navansh jain testinmg the avout sectionb and how it works ",
-    "contactHeading": "Connect with me ",
-    "contactBlurb": "Have something broken or not working connect with me always happy to connect and learn"
+    "specialty": "EFFICICENY PIPEINE TOOLS",
+    "lede": "Problems solved visuals delivered",
+    "aboutHeading": "Get to Know me",
+    "contactHeading": "Lets Connect",
+    "contactBlurb": "If something’s broken, not behaving, or could be better — let’s talk. I’m always open to collaboration, troubleshooting, and learning new approaches. Reach out for project inquiries, tool requests, or technical questions; I’ll usually reply quickly and enjoy digging into tricky problems.",
+    "avatar": "images/Profilephoto.jpeg",
+    "cover": "images/navansh-jain-4.jpg",
+    "available": "Open to Partnerships",
+    "about": "I’m Navansh Jain, a senior technical artist specializing in real-time content for architectural visualization. I’ve spent years working in Unreal Engine, building tools, systems, and procedural workflows that help artists move faster and keep visuals believable. I care about practical engineering, polished visuals, and workflows that scale — whether that means editor tools, optimization, or automating repetitive tasks. Outside work I’m a gamer at heart, and I bring that same focus on playability and impact to the systems I create."
   },
   "stats": [
     {
       "k": "5+",
-      "v": "Years working with unreal"
+      "v": "Years working with unreal engine"
     },
     {
       "k": "2+",
@@ -29,18 +33,22 @@
   "facts": [
     {
       "k": "Based in ",
-      "v": "Lucknow, Uttarpradesh"
+      "v": "Lucknow, Uttarpradesh India"
     },
     {
       "k": "Orignally from ",
-      "v": "Indore, India"
+      "v": "Barnagar, MadhyaPradesh India"
+    },
+    {
+      "k": "Education",
+      "v": "B.des Game Design (Upes Dehradun)"
     }
   ],
   "projects": [
     {
-      "slug": "game-project-solo",
+      "slug": "Triyuga",
       "title": "Triyuga",
-      "role": "Indie artist",
+      "role": "Solo Devloper",
       "year": "2025",
       "cat": "Game",
       "tags": [
@@ -65,7 +73,63 @@
         "built game using unreal enigne with ui and everyrthing ewlse from visualk to sound that a game needs"
       ],
       "impact": [],
-      "learn": "make more of these "
+      "learn": "make more of these ",
+      "media": [],
+      "video": ""
+    },
+    {
+      "slug": "MumbaiFallout",
+      "title": "Mumbai Fallout",
+      "role": "Co Devloper",
+      "year": "2026",
+      "cat": "Game",
+      "tags": [],
+      "image": "",
+      "video": "",
+      "media": [],
+      "blurb": "",
+      "meta": [],
+      "problem": "",
+      "approach": [],
+      "result": [],
+      "impact": [],
+      "learn": ""
+    },
+    {
+      "slug": "SilentEscape",
+      "title": "Silent Escape",
+      "role": "Solo Artist",
+      "year": "2026",
+      "cat": "Cinematic",
+      "tags": [],
+      "image": "",
+      "video": "",
+      "media": [],
+      "blurb": "",
+      "meta": [],
+      "problem": "",
+      "approach": [],
+      "result": [],
+      "impact": [],
+      "learn": ""
+    },
+    {
+      "slug": "Unreal Cinematic",
+      "title": "Kaidkhana",
+      "role": "",
+      "year": "2026",
+      "cat": "Pipeline",
+      "tags": [],
+      "image": "",
+      "video": "",
+      "media": [],
+      "blurb": "",
+      "meta": [],
+      "problem": "",
+      "approach": [],
+      "result": [],
+      "impact": [],
+      "learn": ""
     }
   ],
   "experience": [
@@ -75,7 +139,14 @@
       "when": "2023-24",
       "bullets": [
         "I was lead game designer at playscool an incubated startup at UPES dehradun"
-      ]
+      ],
+      "image": "",
+      "video": "",
+      "fromYear": "2023",
+      "present": false,
+      "toYear": "",
+      "fromMonth": "",
+      "toMonth": ""
     },
     {
       "role": "Level Desinger",
@@ -83,7 +154,14 @@
       "when": "2024-24",
       "bullets": [
         "I was a Level deisgner working on specific parts of level design for anat shrinkhala of insanity crew"
-      ]
+      ],
+      "image": "",
+      "video": "",
+      "fromYear": "2024",
+      "present": false,
+      "toYear": "",
+      "fromMonth": "",
+      "toMonth": ""
     },
     {
       "role": "3D Genralist",
@@ -91,7 +169,14 @@
       "when": "2024-24",
       "bullets": [
         "I was Lead 3D genralist for CMF an indeginopus short web serise platform making animated content using unreal we worked with UNreal,Maya,Marvelous my role was of improving and enhancing the pipeline"
-      ]
+      ],
+      "image": "",
+      "video": "",
+      "fromYear": "2024",
+      "present": false,
+      "toYear": "",
+      "fromMonth": "",
+      "toMonth": ""
     },
     {
       "role": "Lead Technical Artist",
@@ -103,7 +188,14 @@
         "R&D",
         "Library",
         "improving number of projects deliverd in an year"
-      ]
+      ],
+      "image": "",
+      "video": "",
+      "fromYear": "2025",
+      "present": true,
+      "toYear": "",
+      "fromMonth": "",
+      "toMonth": ""
     }
   ],
   "skills": [
@@ -112,7 +204,9 @@
       "items": [
         "PCG NEW TOOLS",
         "PCG PRO"
-      ]
+      ],
+      "video": "",
+      "image": ""
     },
     {
       "h": "Master Widget",
@@ -120,21 +214,27 @@
         "Selection",
         "Optimisation",
         "DA Edtior"
-      ]
+      ],
+      "video": "",
+      "image": ""
     },
     {
       "h": "Editor Tools",
       "items": [
         "Asset action Utility",
         "Scriptable tools"
-      ]
+      ],
+      "video": "",
+      "image": ""
     },
     {
       "h": "Data analyser",
       "items": [
         "Dashboard",
         "Data reader from unreal;"
-      ]
+      ],
+      "video": "",
+      "image": ""
     }
   ],
   "posts": [
@@ -143,7 +243,10 @@
       "date": "08 Aug 2026",
       "title": "Let the optimisation begin",
       "excerpt": "Lern basics of optimisation",
-      "body": "What is optimisation i nthe end all you have is a budget "
+      "body": "What is optimisation i nthe end all you have is a budget ",
+      "media": [],
+      "video": "",
+      "image": ""
     }
   ],
   "social": [
@@ -159,5 +262,6 @@
       "k": "Linkdien",
       "v": "https://www.linkedin.com/in/navansh-jain-415bb01b1/"
     }
-  ]
+  ],
+  "version": "0.3"
 }
