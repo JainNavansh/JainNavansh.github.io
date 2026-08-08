@@ -75,7 +75,9 @@
       "impact": [],
       "learn": "make more of these ",
       "media": [],
-      "video": ""
+      "video": "",
+      "coverStyle": "title",
+      "coverColor": "multi"
     },
     {
       "slug": "MumbaiFallout",
@@ -93,7 +95,9 @@
       "approach": [],
       "result": [],
       "impact": [],
-      "learn": ""
+      "learn": "",
+      "coverStyle": "auto",
+      "coverColor": "multi"
     },
     {
       "slug": "SilentEscape",
@@ -111,7 +115,9 @@
       "approach": [],
       "result": [],
       "impact": [],
-      "learn": ""
+      "learn": "",
+      "coverStyle": "auto",
+      "coverColor": "multi"
     },
     {
       "slug": "Unreal Cinematic",
@@ -129,7 +135,9 @@
       "approach": [],
       "result": [],
       "impact": [],
-      "learn": ""
+      "learn": "",
+      "coverStyle": "auto",
+      "coverColor": "multi"
     }
   ],
   "experience": [
@@ -263,5 +271,5 @@
       "v": "https://www.linkedin.com/in/navansh-jain-415bb01b1/"
     }
   ],
-  "version": "0.3"
+  "version": "0.7"
 }
