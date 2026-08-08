@@ -6,6 +6,18 @@ Versions step up by 0.1 for a batch of changes, and by 0.0.1 for a small fix. Wh
 
 ---
 
+## v0.5 — 8 Aug 2026
+
+**Changed**
+- Toolset replaced: the sorting quiz is gone, and the tools now drop into the section as physical chips that pile up. Grab and fling them, or shove them around with the cursor. They fall in once per visit, when the section scrolls into view
+- Once the pile stops moving, everything glides into a tidy three-column list on its own, so the toolset always ends up readable without anyone doing anything. "Drop them again" replays it
+- Reduced-motion visitors get the tidy list immediately, with no physics
+
+## v0.4.1 — 8 Aug 2026
+
+**Fixed**
+- Nav links for empty sections are now hidden too. Previously an empty Writing section hid itself but left a dead link in the header
+
 ## v0.4 — 8 Aug 2026
 
 **Added**
