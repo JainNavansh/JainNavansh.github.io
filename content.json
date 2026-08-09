@@ -46,6 +46,83 @@
   ],
   "projects": [
     {
+      "slug": "MumbaiFallout",
+      "title": "Mumbai Fallout",
+      "role": "Co Devloper",
+      "year": "2022",
+      "cat": "Game",
+      "tags": [
+        "Game",
+        "Indie",
+        "Game devlopment",
+        "Unreal"
+      ],
+      "image": "",
+      "video": "https://www.youtube.com/watch?v=HEJDP9Rttsk",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/navansh-jain-3.jpg",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF_Card.jpg",
+          "caption": ""
+        }
+      ],
+      "blurb": "My first full build in Unreal — a complete game made with one teammate in under six months. The project that turned engine curiosity into something I could actually work in.",
+      "meta": [
+        {
+          "k": "Team ",
+          "v": "2 Devlopers"
+        },
+        {
+          "k": "Duration",
+          "v": "6 months"
+        },
+        {
+          "k": "Engine",
+          "v": "Unreal engine 5"
+        }
+      ],
+      "problem": "Two people, under six months, and a genuinely complete game as the target — not a prototype or a slice, but something with UI, audio, gameplay, characters, cinematics and a trailer. Neither of us had shipped in Unreal before. The real problem wasn't any one system; it was that with a team of two there's no one to hand anything to, and no way to learn a discipline slowly. Everything had to be learned in the moment it became blocking.",
+      "approach": [
+        "Built <b>gameplay systems and UI</b> from scratch — the first time I'd taken an Unreal build from empty project to something a stranger could pick up and play.",
+        "Handled <b>audio and cinematics</b> alongside character and concept work, because with two people the split is by what's on fire, not by discipline.",
+        "Took on <b>optimisation</b> when the build started struggling — the first time I had to answer why something was slow rather than just make it look right. That question turned out to be the one I've been answering ever since.",
+        "Ran <b>team coordination and scheduling</b> across the six months: deciding what got built, what got cut, and in what order.",
+        "Produced the <b>trailer</b> to present the finished project."
+      ],
+      "result": [
+        "Shipped a complete game — UI through to audio, with a trailer — in under six months with a team of two.",
+        "Established me as a serious contender for this kind of work, and became the foundation everything since has been built on."
+      ],
+      "impact": [
+        {
+          "k": "1",
+          "v": "Full unreal build"
+        },
+        {
+          "k": "2",
+          "v": "Persons team"
+        },
+        {
+          "k": "6",
+          "v": "Months from start to finish"
+        }
+      ],
+      "learn": "This is the project where Unreal stopped being something I was learning and became something I could work in. It was also the most painful, and those two facts aren't unrelated — everything I understand about the engine now traces back to something that broke here first. The optimisation work in particular changed my direction: it was the first time I cared more about why the build was slow than how the scene looked, and that instinct is the whole reason I ended up a technical artist rather than an environment artist. Working as a two-person team taught me the other half of it — that scope, scheduling and knowing what to cut are engineering problems too, not admin around the edges.",
+      "coverStyle": "auto",
+      "coverColor": "multi",
+      "links": [
+        {
+          "k": "Artstation",
+          "v": "https://www.artstation.com/artwork/JvWLPm"
+        }
+      ]
+    },
+    {
       "slug": "Triyuga",
       "title": "Triyuga",
       "role": "Solo Devloper",
@@ -105,10 +182,27 @@
         }
       ],
       "learn": "The split in the feedback was the useful part. What held up was everything systemic — the pipeline, the production process, the fact that it was actually finished. What drew criticism was design judgement, the thing that improves with reps rather than rigour. That told me where I was strong and where I wasn't, and I've spent the years since on the systemic side: pipeline, tooling, and making sure other people's work ships. Doing every role once was the fastest way to find out which one I was actually good at.",
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/Triyuga_Card.jpg",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/Triyuga.jpg",
+          "caption": ""
+        }
+      ],
       "video": "https://youtu.be/hBRhbY7Ofvc?si=1m7O5SFOOMOhMKb6",
       "coverStyle": "title",
-      "coverColor": "multi"
+      "coverColor": "multi",
+      "links": [
+        {
+          "k": "Artstation",
+          "v": "https://www.artstation.com/artwork/LRomBP"
+        }
+      ]
     },
     {
       "slug": "SilentEscape",
@@ -124,7 +218,13 @@
       ],
       "image": "",
       "video": "https://www.youtube.com/watch?v=DoMt62HxSc0",
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/silentescape.jpg",
+          "caption": ""
+        }
+      ],
       "blurb": "A three-minute narrative trailer built end to end in Unreal — concept, models, look dev, sound and story, all solo.",
       "meta": [
         {
@@ -168,7 +268,13 @@
       ],
       "learn": "The sound was the part I was least confident about and the part that landed hardest, which taught me something I've relied on since: the discipline you're worst at is usually the one with the most headroom, because everyone else avoids it too. Working alone across concept, modelling, look dev, narrative and sound also meant constant triage — deciding which shots deserved real asset work and which could be carried by lighting and audio. That judgement about where quality actually shows is the same instinct I use now when deciding what to optimise and what to leave alone.",
       "coverStyle": "auto",
-      "coverColor": "multi"
+      "coverColor": "multi",
+      "links": [
+        {
+          "k": "Artstation",
+          "v": "https://www.artstation.com/artwork/elylzP"
+        }
+      ]
     },
     {
       "slug": "Kaidkhana",
@@ -183,7 +289,13 @@
       ],
       "image": "",
       "video": "https://www.youtube.com/watch?v=QLHM-ZOX2-A",
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/kaidkhana.jpg",
+          "caption": ""
+        }
+      ],
       "blurb": "A self-directed post-apocalyptic environment pushing Nanite, Niagara, Chaos and Sequencer in a single scene — the piece that got me hired onto Anat Shrinkhala.",
       "meta": [
         {
@@ -212,45 +324,13 @@
       "impact": [],
       "learn": "This is the piece that got me hired, and the reason is worth naming: it wasn't a tech demo with a story bolted on. Learning four systems inside one scene was more useful than learning them separately, because the interesting problems only appear where they meet — Nanite geometry lit by natural light, fractured architecture that still had to read as one building, a Niagara effect that couldn't look like a particle system sitting on top of the frame. \"Nobody has been here\" turned out to be a much harder brief than \"make it look ruined,\" and it forced every decision to be justified by the story rather than by what looked good in isolation.",
       "coverStyle": "auto",
-      "coverColor": "multi"
-    },
-    {
-      "slug": "MumbaiFallout",
-      "title": "Mumbai Fallout",
-      "role": "Co Devloper",
-      "year": "2022",
-      "cat": "Game",
-      "tags": [
-        "Game",
-        "Indie",
-        "Game devlopment",
-        "Unreal"
-      ],
-      "image": "",
-      "video": "https://www.youtube.com/watch?v=HEJDP9Rttsk",
-      "media": [],
-      "blurb": "My first full build in Unreal — a complete game made with one teammate in under six months. The project that turned engine curiosity into something I could actually work in.",
-      "meta": [
+      "coverColor": "multi",
+      "links": [
         {
-          "k": "Team ",
-          "v": "2 Devlopers"
-        },
-        {
-          "k": "Duration",
-          "v": "6 months"
-        },
-        {
-          "k": "Engine",
-          "v": "Unreal engine 55"
+          "k": "Artstation",
+          "v": "https://www.artstation.com/artwork/y40Je3"
         }
-      ],
-      "problem": "",
-      "approach": [],
-      "result": [],
-      "impact": [],
-      "learn": "",
-      "coverStyle": "auto",
-      "coverColor": "multi"
+      ]
     }
   ],
   "experience": [
@@ -523,5 +603,5 @@
       "v": "https://x.com/Navansh1010"
     }
   ],
-  "version": "0.7.3"
+  "version": "0.8"
 }
