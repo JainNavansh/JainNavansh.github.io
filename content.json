@@ -49,7 +49,7 @@
       "slug": "Triyuga",
       "title": "Triyuga",
       "role": "Solo Devloper",
-      "year": "2025",
+      "year": "2023",
       "cat": "Game",
       "tags": [
         "Game",
@@ -58,79 +58,192 @@
         "Unreal"
       ],
       "image": "",
-      "blurb": "Triyuga was a standalone indy mystery adventure game",
+      "blurb": "Triyuga was a standalone indie mystery adventure game",
       "meta": [
         {
           "k": "Duration",
           "v": "6 months"
+        },
+        {
+          "k": "Team",
+          "v": "Solo"
+        },
+        {
+          "k": "Engine ",
+          "v": "Unreal engine"
+        },
+        {
+          "k": "Output",
+          "v": "Game build"
         }
       ],
-      "problem": "Only 6 months entire pipeline and research",
+      "problem": "A solo graduation project with a fixed six-month window and no team to fall back on. The hard part wasn't building a game — it was scoping one that a single person could actually finish to a presentable standard, while doing every discipline myself. Every hour spent on sound was an hour not spent on level design, so the real constraint was deciding what not to build.",
       "approach": [
-        "solo devloper worked on everything and anything"
+        "Researched and prototyped <b>multiple game concepts</b> before committing, rather than falling in love with the first idea. Narrowed to a single mystery adventure premise that suited solo production.",
+        "Established a full <b>production workflow</b> across pre-production, production and post-production — so that a one-person team still had checkpoints, a schedule, and a definition of done.",
+        "Wore every hat: <b>game design, level design, development, sound design and UI/UX</b>, building in Unreal Engine.",
+        "Built a <b>presentation and trailer</b> to pitch the finished project to industry veterans at an open jury.",
+        "Authored a <b>thesis</b> documenting the research and production process for final academic submission."
       ],
       "result": [
-        "built game using unreal enigne with ui and everyrthing ewlse from visualk to sound that a game needs"
+        "Shipped a complete, playable build of Triyuga in six months, solo — pipeline closed end to end, from UI through to sound design.",
+        "Presented to an open jury of industry veterans. The jury praised the <b>production readiness</b> and the completeness of the pipeline; the criticism landed on specific design decisions rather than execution.",
+        "Graded <b>9.9 GPA</b> for the project."
       ],
-      "impact": [],
-      "learn": "make more of these ",
+      "impact": [
+        {
+          "k": "9.9",
+          "v": "GPA for the project"
+        },
+        {
+          "k": "6 ",
+          "v": "months, solo"
+        },
+        {
+          "k": "1",
+          "v": "\tperson, every discipline"
+        }
+      ],
+      "learn": "The split in the feedback was the useful part. What held up was everything systemic — the pipeline, the production process, the fact that it was actually finished. What drew criticism was design judgement, the thing that improves with reps rather than rigour. That told me where I was strong and where I wasn't, and I've spent the years since on the systemic side: pipeline, tooling, and making sure other people's work ships. Doing every role once was the fastest way to find out which one I was actually good at.",
       "media": [],
       "video": "https://youtu.be/hBRhbY7Ofvc?si=1m7O5SFOOMOhMKb6",
       "coverStyle": "title",
       "coverColor": "multi"
     },
     {
-      "slug": "MumbaiFallout",
-      "title": "Mumbai Fallout",
-      "role": "Co Devloper",
-      "year": "2026",
-      "cat": "Game",
-      "tags": [],
-      "image": "",
-      "video": "",
-      "media": [],
-      "blurb": "",
-      "meta": [],
-      "problem": "",
-      "approach": [],
-      "result": [],
-      "impact": [],
-      "learn": "",
-      "coverStyle": "auto",
-      "coverColor": "multi"
-    },
-    {
       "slug": "SilentEscape",
       "title": "Silent Escape",
       "role": "Solo Artist",
-      "year": "2026",
+      "year": "2023",
       "cat": "Cinematic",
-      "tags": [],
+      "tags": [
+        "Indie",
+        "Unreal",
+        "Cinematic",
+        "Sound Design"
+      ],
       "image": "",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=DoMt62HxSc0",
       "media": [],
-      "blurb": "",
-      "meta": [],
-      "problem": "",
-      "approach": [],
-      "result": [],
-      "impact": [],
-      "learn": "",
+      "blurb": "A three-minute narrative trailer built end to end in Unreal — concept, models, look dev, sound and story, all solo.",
+      "meta": [
+        {
+          "k": "Type",
+          "v": "Solo Cinematic Project"
+        },
+        {
+          "k": "Outcome",
+          "v": "3 munite trailer"
+        },
+        {
+          "k": "Engine ",
+          "v": "Unreal engine 5"
+        }
+      ],
+      "problem": "A three-minute trailer has to establish a character, a place and a threat before an audience decides to look away — and every second of it had to be authored by one person. The challenge wasn't any single discipline but the breadth: concept, modelling, look dev, narrative and sound all had to hold to the same standard, because in a cinematic the weakest one is what the viewer notices.",
+      "approach": [
+        "Developed the <b>concept and narrative</b>: Kullu Keswani, an investigator sent to survey a derelict factory, follows a sound across the towers and drops into a space he can't climb back out of. A premise built around a single irreversible decision, so the tension is structural rather than dialogue-driven.",
+        "Handled <b>concept design and asset creation</b> — modelling and texturing the environment and props to serve specific shots rather than building a general-purpose kit.",
+        "Owned <b>look development</b> in Unreal: lighting, atmosphere and material work to carry the mood of an abandoned industrial site.",
+        "Designed the <b>sound</b>, using the off-screen noise as the narrative driver — the thing the character follows is the thing the audience hears first."
+      ],
+      "result": [
+        "Delivered a complete three-minute trailer, rendered entirely in Unreal Engine.",
+        "The jury singled out the <b>sound design</b> — the discipline furthest outside my comfort zone going in, and the one I'd expected to be the weakest part of the piece.",
+        "The first project where I closed every discipline myself and had nothing left to hand off."
+      ],
+      "impact": [
+        {
+          "k": "3",
+          "v": "minute runtime"
+        },
+        {
+          "k": "1",
+          "v": "artist, every discipline"
+        },
+        {
+          "k": "100%",
+          "v": "rendered in Unreal"
+        }
+      ],
+      "learn": "The sound was the part I was least confident about and the part that landed hardest, which taught me something I've relied on since: the discipline you're worst at is usually the one with the most headroom, because everyone else avoids it too. Working alone across concept, modelling, look dev, narrative and sound also meant constant triage — deciding which shots deserved real asset work and which could be carried by lighting and audio. That judgement about where quality actually shows is the same instinct I use now when deciding what to optimise and what to leave alone.",
       "coverStyle": "auto",
       "coverColor": "multi"
     },
     {
-      "slug": "Unreal Cinematic",
+      "slug": "Kaidkhana",
       "title": "Kaidkhana",
-      "role": "",
-      "year": "2026",
-      "cat": "Pipeline",
-      "tags": [],
+      "role": "Solo Artist",
+      "year": "2023",
+      "cat": "Cinematic",
+      "tags": [
+        "Indie",
+        "Unreal",
+        "Cinematic"
+      ],
       "image": "",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=QLHM-ZOX2-A",
       "media": [],
-      "blurb": "",
-      "meta": [],
+      "blurb": "A self-directed post-apocalyptic environment pushing Nanite, Niagara, Chaos and Sequencer in a single scene — the piece that got me hired onto Anat Shrinkhala.",
+      "meta": [
+        {
+          "k": "Type",
+          "v": "Cinematic render"
+        },
+        {
+          "k": "Engine ",
+          "v": "Unreal engine 5"
+        }
+      ],
+      "problem": "An environment assignment with two goals pulling in different directions. It had to read as a believable place — an abandoned prison, decades overgrown, with a story a player could infer without being told — while also being a deliberate testbed for Unreal 5 systems I hadn't shipped with: Nanite, Niagara, Chaos fracture and Sequencer. A tech demo that isn't a place is a checklist; a place that doesn't stress the tech teaches you nothing.",
+      "approach": [
+        "Built the scene around a premise that justified the visual language: after the collapse, <b>Kaidkhana survived because nobody could reach it</b>. The protagonist arrives to claim it as a base and finds, among the cells, an active power source that slows time at its centre.",
+        "Set the mood through <b>absence</b> — overgrown vegetation, moss-slicked concrete, natural light only, no sign of present activity. The building had to feel untouched rather than staged, so every readable detail had to be decay rather than dressing.",
+        "Used <b>Nanite</b> for dense architectural and rock geometry, keeping the old stonework detailed at close range without hand-authored LODs.",
+        "Used <b>Chaos fracture</b> for structural damage, so ruin read as something that happened to the building rather than a texture applied to it.",
+        "Built the supernatural element in <b>Niagara</b> — the power source at the centre had to feel physically present and out of place at the same time, which is a lighting and particle problem more than a modelling one.",
+        "Assembled the presentation in <b>Level Sequencer</b>, choosing camera moves that reveal the space before revealing the anomaly."
+      ],
+      "result": [
+        "Delivered a complete environment with a rendered walkthrough, published on ArtStation and YouTube.",
+        "<b>Landed a level design role on Anat Shrinkhala at Insanity Crew off the back of this piece.</b>",
+        "Came out with working knowledge of Nanite, Niagara, Chaos and Sequencer in a production context rather than in isolation — the groundwork for the procedural and optimisation work I do now."
+      ],
+      "impact": [],
+      "learn": "This is the piece that got me hired, and the reason is worth naming: it wasn't a tech demo with a story bolted on. Learning four systems inside one scene was more useful than learning them separately, because the interesting problems only appear where they meet — Nanite geometry lit by natural light, fractured architecture that still had to read as one building, a Niagara effect that couldn't look like a particle system sitting on top of the frame. \"Nobody has been here\" turned out to be a much harder brief than \"make it look ruined,\" and it forced every decision to be justified by the story rather than by what looked good in isolation.",
+      "coverStyle": "auto",
+      "coverColor": "multi"
+    },
+    {
+      "slug": "MumbaiFallout",
+      "title": "Mumbai Fallout",
+      "role": "Co Devloper",
+      "year": "2022",
+      "cat": "Game",
+      "tags": [
+        "Game",
+        "Indie",
+        "Game devlopment",
+        "Unreal"
+      ],
+      "image": "",
+      "video": "https://www.youtube.com/watch?v=HEJDP9Rttsk",
+      "media": [],
+      "blurb": "My first full build in Unreal — a complete game made with one teammate in under six months. The project that turned engine curiosity into something I could actually work in.",
+      "meta": [
+        {
+          "k": "Team ",
+          "v": "2 Devlopers"
+        },
+        {
+          "k": "Duration",
+          "v": "6 months"
+        },
+        {
+          "k": "Engine",
+          "v": "Unreal engine 55"
+        }
+      ],
       "problem": "",
       "approach": [],
       "result": [],
@@ -303,7 +416,7 @@
       "date": "04 Apr 2024",
       "title": "BLOG - 3 Let the optimisation begin",
       "excerpt": "This blog is all about Optimisation",
-      "image": "image/navansh-jain-blog3.jpg",
+      "image": "images/navansh-jain-blog3.jpg",
       "video": "",
       "media": [],
       "body": "Hello readers,\n\nIn the last blog post, we talked about how video games work on computers, now without wasting any more time let’s dive right in.\n\nthis blog is all about Optimisation here we will talk about four concepts at major and for now we will take the reference of Unreal engine but the foundations are the same Be it on any game engine so the four basic methods around which everything else is made\n\nlevel streaming, texture control, level of details, and distance culling.\n\nWe will tackle this in parts first we will talk about texture control and level of details and in the next part we will talk about level streaming and distance culling. As the next few paragraphs can become the difference between your game running and not running.\n\nLet’s talk about texture control, every UV sheet has its texture resolution, and that texture resolution decides the number of pixels a particular UV is going to get the denser the texture sheet higher the amount of pixels, and the higher the quality. but when we are making a game not everything requires the same amount of quality or texture details.at all times\n\nA very simple example of texture control would be old photographs versus New photographs we all know that old photographs used to be very small in size why was that simply because mobile cameras were not equipped to capture high-resolution images and now they are. Texture control is what we need to decide what resolution which 3D model will get and why so\n\nwhat we do is control Texture at one point in our workflow, whether it is in the engine or it is pre-decided. we will take a look at it. Using an example.\n\none is of a building and the other is of a spoon if you were to guess which one will need higher texture resolution what would your answer be?\n\nIf you thought that of course the building needs more resolution then you are correct the building will be visible from large distances it has a large surface area on which the artist has to paint so Naturally it needs more resources and more texture resolution but at the same time the spoon won’t be visible from very close neither will it be extremely Detailed.\n\nagain one might ask alright let’s keep all of them at Higher texture resolution what’s the problem The higher the texture resolution the more processing the GPU has to do and as we learned earlier we do not want our GPU to do any unnecessary processing for a spoon of small size there is only so much you can show in it.\n\nI hope this makes it clear that texture resolution needs to be controlled I will also touch on how we can do it a little so at every step of the way in a 3D pipeline we will get a chance to control texture\n\nIn your DCC software, you get a chance when packing the UV sheets\nIn Substance Painter, you get a chance while exporting to set the size of your picture\nIn Unreal engine, bulk edit my property Matrix option and compression\nIn next part we will talk about the level of details and how they were the king of Optimisation and are now phasing out."
@@ -376,6 +489,16 @@
         {
           "kind": "image",
           "src": "images/MF6.webp",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF7.webp",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF8.webp",
           "caption": ""
         }
       ],
