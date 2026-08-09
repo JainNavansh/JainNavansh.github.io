@@ -2,7 +2,7 @@
   "site": {
     "name": "Navansh Jain",
     "role": "Technical Artist",
-    "specialty": "EFFICICENY PIPEINE TOOLS",
+    "specialty": "PCG TOOLS EFFICIENCY",
     "lede": "Problems solved visuals delivered",
     "aboutHeading": "Get to Know me",
     "contactHeading": "Lets Connect",
@@ -18,30 +18,30 @@
       "v": "Years working with unreal engine"
     },
     {
-      "k": "2+",
+      "k": "3+",
       "v": "Years of industry experince"
     },
     {
-      "k": "40+",
-      "v": "Artists worked with"
+      "k": "50+",
+      "v": "Artists supercharged"
     },
     {
-      "k": "15+",
+      "k": "25+",
       "v": "Live projects contributed"
     }
   ],
   "facts": [
     {
-      "k": "Based in ",
-      "v": "Lucknow, Uttarpradesh India"
+      "k": "Education",
+      "v": "B.des Game Design (Upes Dehradun)"
     },
     {
       "k": "Orignally from ",
       "v": "Barnagar, MadhyaPradesh India"
     },
     {
-      "k": "Education",
-      "v": "B.des Game Design (Upes Dehradun)"
+      "k": "Based in",
+      "v": "Lucknow, UttarPradesh India"
     }
   ],
   "projects": [
@@ -142,33 +142,23 @@
   ],
   "experience": [
     {
-      "role": "Game desinger",
-      "org": "Playschool",
-      "when": "2023-24",
+      "role": "Lead Technical Artist",
+      "org": "Ink in caps",
+      "when": "2025-Present",
       "bullets": [
-        "I was lead game designer at playscool an incubated startup at UPES dehradun"
+        "Pcg Tools",
+        "Custom editor tools",
+        "Pipeline automation",
+        "Ai integration",
+        "Custom Asset Library",
+        "Large Scale open world optimisation"
       ],
-      "image": "",
-      "video": "",
-      "fromYear": "2023",
-      "present": false,
+      "image": "images/ink_in_caps_logo.jpg",
+      "video": "https://www.youtube.com/watch?v=BOdVX7Mh3Gw",
+      "fromYear": "2025",
+      "present": true,
       "toYear": "",
-      "fromMonth": "",
-      "toMonth": ""
-    },
-    {
-      "role": "Level Desinger",
-      "org": "Insanity crew",
-      "when": "2024-24",
-      "bullets": [
-        "I was a Level deisgner working on specific parts of level design for anat shrinkhala of insanity crew"
-      ],
-      "image": "",
-      "video": "",
-      "fromYear": "2024",
-      "present": false,
-      "toYear": "",
-      "fromMonth": "",
+      "fromMonth": "Mar",
       "toMonth": ""
     },
     {
@@ -176,70 +166,112 @@
       "org": "Catchmflixx Entertainment",
       "when": "2024-24",
       "bullets": [
-        "I was Lead 3D genralist for CMF an indeginopus short web serise platform making animated content using unreal we worked with UNreal,Maya,Marvelous my role was of improving and enhancing the pipeline"
+        "Setting up and maintaining Unreal Engine project frameworks and source control systems.",
+        "Optimizing levels, lighting, and overall performance for 3D animations.",
+        "<b>Troubleshooting</b> and resolving general Unreal Engine issues related to blueprints and other engine components.",
+        "Actively contributing to the development of the startup's",
+        "Cinematic Design and development actively helping the team with cinematics development using level sequencer and MRQ using features and parameter to improve visual fidelity"
       ],
-      "image": "",
+      "image": "images/CMF.png",
       "video": "",
       "fromYear": "2024",
       "present": false,
-      "toYear": "",
-      "fromMonth": "",
-      "toMonth": ""
+      "toYear": "2024",
+      "fromMonth": "Sep",
+      "toMonth": "Dec"
     },
     {
-      "role": "Lead Technical Artist",
-      "org": "Ink in caps",
-      "when": "2025-Present",
+      "role": "Game desinger",
+      "org": "Playschool",
+      "when": "2023-24",
       "bullets": [
-        "Lead technical artist owning products",
-        "Pipeline",
-        "R&D",
-        "Library",
-        "improving number of projects deliverd in an year"
+        "Created company’s design vision",
+        "Designed core game mechanics for concept",
+        "Conducted user research to gauge user needs",
+        "Developed educational game mechanics (organic chemistry)",
+        "Balanced mechanics for fun and challenge",
+        "Created and optimized design & product workflow",
+        "Drove design concepts to reality"
       ],
-      "image": "",
+      "image": "images/images.png",
       "video": "",
-      "fromYear": "2025",
-      "present": true,
-      "toYear": "",
-      "fromMonth": "",
-      "toMonth": ""
+      "fromYear": "2022",
+      "present": false,
+      "toYear": "2023",
+      "fromMonth": "Aug",
+      "toMonth": "May"
+    },
+    {
+      "role": "Level Designer",
+      "org": "Insanity crew",
+      "fromMonth": "May",
+      "fromYear": "2024",
+      "toMonth": "Sep",
+      "toYear": "2024",
+      "present": false,
+      "image": "images/download.jpeg",
+      "video": "",
+      "bullets": [
+        "Designed & Prototyped games cutscene and crucial elements",
+        "Designed multiple high quality environment for games prototype",
+        "Designed Unreal Niagara and fx with vfx team to improve scene quality",
+        "collaborated with developers to ensure high performance on mid range devices",
+        "collaborated with senior team in order to achieve companies vision with macro scenes",
+        "Established a physics and chaos based workflow for Realtime and baked scene.",
+        "Designed cutscene documentation workflow for accurate and precise collaboration between departments",
+        "Understood, learned & implemented a lot of new tools like fracture, chaos, Niagara trail & Niagara fluid inside unreal engine for better output"
+      ]
     }
   ],
   "skills": [
     {
-      "h": "PCG TOOLS",
+      "h": "Unreal Tools",
       "items": [
-        "PCG NEW TOOLS",
-        "PCG PRO"
+        "PCG (Expert)",
+        "Blueprints (Expert)",
+        "Scrpitable tools (Expert)",
+        "Utility Widgets (Expert)",
+        "Shaders (Intermediate)",
+        "Optimisation (Expert)",
+        "Profiling (Intermediate)",
+        "Niagra (Novice)"
       ],
       "video": "",
       "image": ""
     },
     {
-      "h": "Master Widget",
+      "h": "Softwares",
       "items": [
-        "Selection",
-        "Optimisation",
-        "DA Edtior"
+        "Unreal (Active)",
+        "Unity",
+        "Maya 3D",
+        "Substance painter",
+        "Blender",
+        "3Ds max",
+        "Photoshop",
+        "Figma"
       ],
       "video": "",
       "image": ""
     },
     {
-      "h": "Editor Tools",
+      "h": "AI",
       "items": [
-        "Asset action Utility",
-        "Scriptable tools"
+        "Unreal Tools",
+        "Vibe Coding",
+        "Content genration",
+        "Token Optimisation"
       ],
       "video": "",
       "image": ""
     },
     {
-      "h": "Data analyser",
+      "h": "Soft Skills",
       "items": [
-        "Dashboard",
-        "Data reader from unreal;"
+        "Leadearship",
+        "Ownership",
+        "Public Speaking",
+        "Design thinking"
       ],
       "video": "",
       "image": ""
@@ -247,14 +279,107 @@
   ],
   "posts": [
     {
-      "slug": "new-post",
-      "date": "08 Aug 2026",
-      "title": "Let the optimisation begin",
-      "excerpt": "Lern basics of optimisation",
-      "body": "What is optimisation i nthe end all you have is a budget ",
+      "slug": "Blog-1",
+      "date": "04 Mar 2024",
+      "title": "BLOG - 1 Game optimization",
+      "excerpt": "What goes inside that silicon",
+      "body": "Hello readers, this is my first blog post. My name is Navansh Jain and I am studying game design from UPES Dehradun.\n\nApart from studying game design, I also happen to love video games. One thing that passionated me more than how the games were made is how my computer could run the games. My old computer, with a very old Intel chipset, some 2GB of RAM, and no dedicated GPU, wasn’t even in the conversation. And somehow, I could still play all of my favorite games: Vice City, San Andreas, and even some old Assassin’s Creed. I loved it, but never really knew how it was happening. Now I do know how it works and what goes behind the scenes, so I am here to share it with you.\n\nThis is a four-post series, which I will post twice a week, tackling a lot of optimization methods in detail and how they work. I don’t think every single human being on the planet would like to hear about it, but there are a few special ones in my eyes who would like to. So, here’s how game optimization works and what’s next.\n\nBefore diving deep into how computers work and how games run on computers, let’s try to understand what optimization is. Optimization is making the best use, or one can say the most efficient use, of a situation or resources.\n\nPart 1: The Machine\n\nBefore trying to understand how a game works on a computer, we need to understand how a computer works in our context. There are only two extremely important things: one is storage, another is processing.\n\nStorage\n\nis just like any other storage. It stores things for us and keeps it separate and well-organized. But the problem is that we have large storage areas. For example, a 1TB SSD can store up to 17,592,186,044,416 binary values. Even though our SSD runs at staggering speeds, it’s nowhere close to being good enough to access a value on call in real-time. That’s why we have RAMs. They are made for this: there’s smaller storage, and they’re quicker than your normal storage. So now, we can access the data on call in real-time. This solves the problem of storage and accessing data. Moving on to the next part.\n\nprocessing.\n\nWe all have done algebra in our schools. CPUs are doing that for the rest of their lives (it’s sad, I know, but it’s a crucial part of our current life). All the processing that happens in a computer either happens in the CPU or the GPU. It’s not exactly a comparison like storage and RAM, but the important thing to understand here is that CPUs specialize in doing certain tasks that involve a lot of different calculations, while GPUs excel at doing heavy calculations at the same time. Games usually involve a lot of parallel computing as well, but most of the time, GPUs are the bottleneck. Dividing the load between them is crucial.\n\nHere’s how it works: Data is stored on a storage device. When you call it by clicking on it, it gets pulled into the RAM. The CPU then decides whether to perform the calculation itself or send it to the GPU. The calculation is done, and the result is displayed on your screen. Yeah, that’s your computer in a nutshell.\n\nIn the next blog, we will start talking about how actual optimization is done for games.\n\nIf you like the blog, share it with someone you think would be interested in reading it. If there’s anything I can improve on, I’m always open to learning new things. Please tell me in my DMs.",
       "media": [],
       "video": "",
-      "image": ""
+      "image": "images/navansh-jain-blog-post-1.jpg"
+    },
+    {
+      "slug": "Blog-2",
+      "date": "17 Mar 2024",
+      "title": "Blog - 2 machine VS games",
+      "excerpt": "In depth look at ram and processing",
+      "image": "images/navansh-jain-blog-post-2.jpg",
+      "video": "",
+      "media": [],
+      "body": "Hello readers,\n\nSo now that we know how a computer works we need to focus on how games work on computers. In our case resources are bits of data. Everyone knows that how a computer works, it works in binaries. There are CPU’s, there are GPU’s, there is RAM, there is storage and to cool everything there is a fan Yada-Yada. But inside all of this there is a “perfect balancing dance of moving binaries”. in between these binaries there is the mystery of game optimization. Now the data which we are talking about is nothing but information of what to display on a screen, which pixel to illuminate in which color and when to change it. A 3D environment you see consists of small 3D objects, those 3D objects consist of millions of tris or simply put three vectors 3’s. These Vectors keep inside of them the information of X, Y and Z coordinates of vertexes.\n\nTo calculate these values a computer needs to do a lot of work. These values are stored in our storage, As we talked about it previously, that storage is not good enough in terms of speed, so to do it quicker we have our RAM Now this RAM transmits the data to the CPU which in turn converts the three vertex’s into a tri, and combines all the tris to form a shape, that shape is later projected onto our screens and that’s how you see all of the beautiful assets of your favorite video games. Now game on average has a number of assets ranging from some thousands to, in some bigger games up to million, that is a lot of tris. No matter how good of hardware you have if you try to put all of those tris at the same time, your processing units won’t be able to handle it to tackle this problem we have multiple solutions, again we can use a few of them or all of them depending on its complexity.\n\nBefore talking about the solutions there is one more thing left to do. You have to put colors on to your tris that’s because no one wants to see a gray game. To put color you do something called texturing, we game developers make UV sheets from 3D models and then paint on them like we would on a paper, this process is called UV unwrapping. Think of it as origami just like you fold the paper in certain ways to make a cube, here you are unwraping a cube in certain ways to make a plane paper out of it. Again the important thing to understand here is that every UV Sheet has a particular resolution at which it runs. The resolution could range from a tiny 32xby 32x up to 8k depending on the resolution of the UV sheet you can get more and more details and clarity into the asset.\n\nNow we are very close to start understanding how game Optimisation works. Till now we have seen that how computers work and how 3D assets work on the computer. In the next part we will start talking about level streaming and occlusion culling."
+    },
+    {
+      "slug": "Blog-3",
+      "date": "04 Apr 2024",
+      "title": "BLOG - 3 Let the optimisation begin",
+      "excerpt": "This blog is all about Optimisation",
+      "image": "image/navansh-jain-blog3.jpg",
+      "video": "",
+      "media": [],
+      "body": "Hello readers,\n\nIn the last blog post, we talked about how video games work on computers, now without wasting any more time let’s dive right in.\n\nthis blog is all about Optimisation here we will talk about four concepts at major and for now we will take the reference of Unreal engine but the foundations are the same Be it on any game engine so the four basic methods around which everything else is made\n\nlevel streaming, texture control, level of details, and distance culling.\n\nWe will tackle this in parts first we will talk about texture control and level of details and in the next part we will talk about level streaming and distance culling. As the next few paragraphs can become the difference between your game running and not running.\n\nLet’s talk about texture control, every UV sheet has its texture resolution, and that texture resolution decides the number of pixels a particular UV is going to get the denser the texture sheet higher the amount of pixels, and the higher the quality. but when we are making a game not everything requires the same amount of quality or texture details.at all times\n\nA very simple example of texture control would be old photographs versus New photographs we all know that old photographs used to be very small in size why was that simply because mobile cameras were not equipped to capture high-resolution images and now they are. Texture control is what we need to decide what resolution which 3D model will get and why so\n\nwhat we do is control Texture at one point in our workflow, whether it is in the engine or it is pre-decided. we will take a look at it. Using an example.\n\none is of a building and the other is of a spoon if you were to guess which one will need higher texture resolution what would your answer be?\n\nIf you thought that of course the building needs more resolution then you are correct the building will be visible from large distances it has a large surface area on which the artist has to paint so Naturally it needs more resources and more texture resolution but at the same time the spoon won’t be visible from very close neither will it be extremely Detailed.\n\nagain one might ask alright let’s keep all of them at Higher texture resolution what’s the problem The higher the texture resolution the more processing the GPU has to do and as we learned earlier we do not want our GPU to do any unnecessary processing for a spoon of small size there is only so much you can show in it.\n\nI hope this makes it clear that texture resolution needs to be controlled I will also touch on how we can do it a little so at every step of the way in a 3D pipeline we will get a chance to control texture\n\nIn your DCC software, you get a chance when packing the UV sheets\nIn Substance Painter, you get a chance while exporting to set the size of your picture\nIn Unreal engine, bulk edit my property Matrix option and compression\nIn next part we will talk about the level of details and how they were the king of Optimisation and are now phasing out."
+    },
+    {
+      "slug": "Blog - 4",
+      "date": "19 Apr 2024",
+      "title": "BLOG - 4 IT’S ALL RELATIVE - UNDERSTANDING LOD’S IN DUBAI",
+      "excerpt": "we’re going to dive deep into a technique called Level of Detail",
+      "image": "images/navansh-jain-blog4-bg.jpg",
+      "video": "",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/Blog 4.png",
+          "caption": ""
+        }
+      ],
+      "body": "Hello Readers,\n\nPreviously, we talked about texture control and why it’s important to understand it. Now, we’re going to dive deep into a technique called Level of Detail (LOD).\n\nLevel of detail has been around for computer applications for a long time. If you go back to its inception, it started back in 1976 when computers were in the hands of a select few. They used to structure the code in such a way that the computer had to render very little. But what does level of detail mean in our context?\n\nWe will understand this with an example.\n\nHave you ever seen a satellite flying in the sky? It looks like a moving star, even though it’s a complex shape with a lot of solar arrays and other equipment. But why does it look like a star to us? Because it’s far away, relative to the size of the satellite.\n\nWhen talking about LODs, relativity is something we have to understand. So, carrying forward from the previous example, if the satellite were the size of the Burj Khalifa, you would be able to see its shape. But since satellites are small, all we see is a small dot. However, if a satellite of Burj Khalifa’s size was orbiting Saturn, we would still see a tiny dot.\n\nHow does this apply in games? It’s quite simple. When you go far away from an object, the game automatically reduces its polygons (triangles) based on your distance from the object. And all of this happens in real time, so we never even know.\n\nPreviously, we talked about why it’s important to have the minimum number of polygons. It helps a lot with optimization and is a great technique to reduce the real-time workload on a computer.\n\nHere’s a great example from a fellow Reddit user, “Bigxow”:\n\nImagine a 5-story building close to you. You see the cracks in the walls, the blinds in the windows, and the knob on the wall. This model could have something like 3 million triangles. This is LOD0.\n\nThen, at 30 meters (100 feet) away from the building, you lose the perception of most of the fine detail. You can still see the doors, windows, and stairs, but there’s no point in rendering the cracks in the walls if they will take up less than a pixel on the screen. So, the model is simplified to only contain relevant details. This might have only 1,000 triangles, which could be LOD1, 2, or 3 depending on how granular you want to divide it.\n\nEventually, the building is so far away that you can only see a blob on the horizon. At this point, the building can pretty much be a cube with the windows, doors, etc., just painted on a flat surface. This can be as small as 12 triangles. This would be the final LOD.\n\nThis example perfectly sums up what LODs are. However, as technology and the game development industry evolve, LODs are becoming more of a thing of the past. New technologies like nanites are replacing LODs because they require much less human intervention and are easier to work with at the same time. There are also a lot of optimization frameworks based on LODs, like Super Gaming’s AALSY system (Asynchronous Asset Loading System). This optimization system is built on the fundamentals of level of detail.\n\nThe level of detail is different in every single engine, but it mainly consists of the original model (LOD0) and then its low-detail versions like LOD2, LOD3, etc. All of these changes are based on the distance of the camera from the model.\n\nIn the final part of this blog post, we will talk about level streaming and distance culling. See you all later!"
+    },
+    {
+      "slug": "Blog-5",
+      "date": "21 Apr 2024",
+      "title": "BLOG 5 — Those vice city loading screens remember?",
+      "excerpt": "Now, we’re going to delve into level streaming.",
+      "image": "",
+      "video": "",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/Levle streaming.png",
+          "caption": ""
+        }
+      ],
+      "body": "Hey Readers,\n\nThis will be the last post in this series! Previously, we talked about texture optimization and level of detail as optimization techniques. Now, we’re going to delve into level streaming.\n\nRemember those loading screens in Vice City? We used to get stuck at them sometimes, right in the middle of a mission near the bridge. Why is there a loading screen right in the middle of a game? Here’s the answer: to keep the game running smoothly.\n\nWe discussed earlier why it’s important to divide the load that the computer has to handle. Imagine being on the beach in Vice City. Why would you need to load the airport far away in the map to be loaded in the background?\n\nGame developers use something called level streaming to address this. It’s quite simple. The developers divide the game map into multiple parts and then load them as needed. This helps lower the pressure on the CPU. Back then, there was no way to do this in real-time, but now features like level streaming and world partition exist.\n\nThink of level streaming like your home. When you’re in your room, do you know what’s happening in the kitchen or living room? You don’t need to know. Similarly, the player only sees what their current level allows them to.\n\nOn paper, level streaming seems simple, but it’s a complex design task that level designers aspire to master. We need to understand its limitations:\n\nLevel streaming is a map-based streaming technique. You can’t stream a single object; you need to stream a whole level.\nStreaming is a process-heavy task. Expect a slight lag when a new level streams in. When you stream a new level, you unload another level, which takes a toll on the processor.\nHere’s how developers get around these limitations: they create illusions. Designers intentionally create levels with areas that can be divided into two separate visual maps. Without the user realizing it, they switch levels in real time.\n\nFor example, imagine two rooms, A and B. The player wants to go from A to B. In the first approach, there’s a straight corridor connecting them. In the second approach, there’s a curved corridor. To the player, it makes little difference. However, for level designers, it can mean the difference between 60 FPS and 30 FPS.\n\nThe problem with the straight corridor is that the player can see both sides all the time. In the second approach, the player sees room A, then no rooms, and finally room B. This gives the developers breathing room and processing power to load and unload both rooms.\n\nBut all of this must be done creatively so the user doesn’t feel any disruption. They shouldn’t realize the levels are changing or experience performance drops. It still needs to look beautiful.\n\nLevel streaming is a double-edged sword. Use it right, and you can create massive worlds with great performance. Use it poorly, and your game transitions will be boring and laggy.\n\nThere are multiple variants of level streaming available, like Unreal Engine 5’s World Partition. It allows you to create vast worlds and load and unload assets as you go along in real time.\n\nBut in the end,\n\n“No matter how good our hardware gets, the need to optimize will always be there.” Humans tend to squeeze more out of less. Remember, just two decades ago, 16 MB of RAM was considered decent, 1 GB of internet was expensive, and computers and mobile phones were luxuries. Back then, people said 1 GB of RAM would be enough. Now, we say 20 GB of VRAM is enough.\n\nThe truth is, the hardware vs. software race is never-ending. Advancements in one field create a need for upgrades in the other. Therefore, optimization will always be crucial for computer games.\n\nThe need to evolve is more critical than ever as we enter a fast-paced era where things change rapidly. Keeping up with the market is important, but even more important is understanding things at their core. Feeling that electricity running through the machine’s cores, the key you push, the touch you have on your screen — everything runs on binary code.\n\nIf you can understand that, you can understand how Microsoft Flight Simulator can have the entire globe in a single game and how GTA 6 will push the boundaries of software development yet again.\n\nThis marks the end of this blog series I enjoyed writing them all it was a new experience for me to create content in some of the most primitive formats that is writing I am going to continue this ahead with new ideas related to game design if you have any suggestions please let me know I am all ear’s\n\nTill next time !!"
+    },
+    {
+      "slug": "MF-Breakdown",
+      "date": "23 Apr 2024",
+      "title": "Mumbai Fallout level design breakdown",
+      "excerpt": "Level Design Breakdown: Wing A — A Thrilling Descent into Mumbai’s Underbelly.",
+      "image": "",
+      "video": "https://www.youtube.com/watch?v=V8RIYbk3Yf0",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/MF1.webp",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF2.webp",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF3.webp",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF4.webp",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF5.webp",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/MF6.webp",
+          "caption": ""
+        }
+      ],
+      "body": "Level Design Breakdown: Wing A — A Thrilling Descent into Mumbai’s Underbelly.\n\nMumbai fallout was a project i did last summer with Anusree Ashokan one of my junior at college it took us almost 6 months to complete this project. The idea behind Mumbai Fallout was an art-first level design process that focuses on telling the story through environment rather than using mechanics and UI. It aimed to be an extremely cinematic and immersive representation.\n\nMumbai Fallout’s final act takes players on a heart-pounding journey through Wing A, the most infected and terrifying section of the research facility. Here, we’ll dissect the design choices that transformed Wing A into a challenging and fear-inducing climax.\n\nWhile designing Wing A, one of the key things to keep in mind was its need to play a major part in the story at the same time as increasing the intensity and flow of the game. To achieve this, a simple yet effective design theory has been put to use. Here is a map of Wing A with its major POIs and navigation mapped out.\n\nA Crucible of Gameplay:\n\nWing A serves as the ultimate test for players. Here, all the core mechanics of Mumbai Fallout come together in a concentrated form. Players must utilize everything they’ve learned to navigate through puzzles, overcome combat encounters, and ultimately unlock the path forward. This concentrated gameplay loop ensures a satisfying conclusion while pushing players to master the game’s systems.\n\nFueling the Fear Factor:\n\nBeyond the intense gameplay, Wing A is meticulously crafted to evoke emotions of fear and thrill. Here’s how the level design amplifies the horror:\n\nClaustrophobic Design: Tight corridors, limited visibility, and oppressive environments create a sense of constant danger. Players never feel truly safe, heightening the tension with every step.\n\nEnemy Ambushes: Strategic enemy placement utilizes surprise attacks and flanking maneuvers. This keeps players on edge, forcing them to stay alert and adapt their combat strategies.\n\nEnvironmental Storytelling: Scattered throughout Wing A are grisly remnants of past experiments and horrifying mutations. This visual storytelling paints a picture of the devastation caused by the Solarium fungus, adding another layer of unease.\n\nSound Design and Lighting: Ominous sound effects like dripping water, unsettling groans, and the distant moans of the infected further immerse players in the horror. Flickering lights, heavy shadows, and a sickly green glow paint a disturbing picture of the environment.\n\nImagine navigating a dimly lit corridor, the only light source a flickering emergency lamp. Suddenly, a guttural roar echoes through the hallway — a mutated creature bursts from the shadows, forcing you into a desperate fight for survival. This is the kind of experience Wing A aims to deliver.\n\nKey challanges\n\noptimization was one of the biggest challange we faced when designing levels for mumbai falllout it was very difficult for us to maintain the quality vs performance graph but throught the devlopment process we were able to improve a lot on how we aproach the problem of optimization.\n\nAnother big problem was the size of this map was very large so keeping the player intrested at the same time, not utilizing too much resources and manging to keep the flow and navigation of the game on point was a key challange. We tackled this by using simple and basic design principles which deliverd striking visual details with the use of simillar amount of resources as before.\n\nHere is a walkthrough video there is a lot which still has to be implemented in this clip and quality is not ideal but for what its worth the enviorment is completed\n\nBy combining intense gameplay with a well crafted horror atmosphere, Wing A delivers a memorable climax for Mumbai Fallout. It pushes players to their limits while leaving a lasting impression of the dangers lurking within the city’s underbelly. This level design breakdown offers a glimpse into the creative decisions that made Wing A such a thrilling and terrifying experience.\n\nTHANKS FOR READING!!"
     }
   ],
   "social": [
@@ -269,6 +394,10 @@
     {
       "k": "Linkdien",
       "v": "https://www.linkedin.com/in/navansh-jain-415bb01b1/"
+    },
+    {
+      "k": "X",
+      "v": "https://x.com/Navansh1010"
     }
   ],
   "version": "0.7.3"
