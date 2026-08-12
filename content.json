@@ -64,52 +64,52 @@
       "media": [
         {
           "kind": "image",
-          "src": "images/PCG1",
+          "src": "images/PCG1.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG2",
+          "src": "images/PCG2.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG3",
+          "src": "images/PCG3.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG4",
+          "src": "images/PCG4.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG5",
+          "src": "images/PCG5.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG6",
+          "src": "images/PCG6.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG7",
+          "src": "images/PCG7.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG8",
+          "src": "images/PCG8.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG9",
+          "src": "images/PCG9.png",
           "caption": ""
         },
         {
           "kind": "image",
-          "src": "images/PCG10",
+          "src": "images/PCG10.png",
           "caption": ""
         }
       ],
