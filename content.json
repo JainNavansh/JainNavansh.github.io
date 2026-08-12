@@ -46,6 +46,128 @@
   ],
   "projects": [
     {
+      "slug": "pcg-pro",
+      "title": "PCG PRO",
+      "role": "Product Lead",
+      "year": "2026",
+      "cat": "Pipeline",
+      "tags": [
+        "Unreal 5",
+        "PCG",
+        "Tools",
+        "Data-driven",
+        "Archviz",
+        "Optimisation"
+      ],
+      "image": "",
+      "video": "",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/PCG1",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG2",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG3",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG4",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG5",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG6",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG7",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG8",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG9",
+          "caption": ""
+        },
+        {
+          "kind": "image",
+          "src": "images/PCG10",
+          "caption": ""
+        }
+      ],
+      "links": [],
+      "coverStyle": "title",
+      "coverColor": "mint",
+      "blurb": "A production PCG toolset used daily by 30 Unreal artists — cut environment foliage from four weeks to one, and made the redo cycle cheap enough that iteration stopped being a cost.",
+      "meta": [
+        {
+          "k": "Company",
+          "v": "Ink In Caps"
+        },
+        {
+          "k": "Duration",
+          "v": "6 Months "
+        },
+        {
+          "k": "Engine",
+          "v": "Unreal engine 5"
+        },
+        {
+          "k": "Role",
+          "v": "Design Research & Build"
+        }
+      ],
+      "problem": "Archviz environments get built over and over from the same ingredients — foliage along a path, fill inside a boundary, planting that has to respect buildings, grass that has to run at scale. Each one was being solved per project, by hand or with a one-off graph, so no two scenes were built the same way and nothing carried forward. The obvious fix is to write some PCG tools, but a pile of unrelated tools has the same problem in a different shape: every tool arrives with its own controls, its own conventions and its own learning curve, so artists use the one they know and ignore the rest. With thirty people on the tools, that fragmentation compounds.",
+      "approach": [
+        "Built <b>two families of generators on a shared structure</b>. Environment covers fill, path and wall; Main Building covers controlled fill, controlled path, random fill, random path and mesh-sampled grass, plus negative fill and negative path for carving space back out.",
+        "Made the split between <b>controlled and random</b> the core design decision. Random generators take user weights and transform ranges and scatter within them; controlled generators add ordering and grammar, so an artist specifies what spawns in what sequence rather than only how much of it.",
+        "Made the whole system <b>data driven</b>. Foliage is described in data assets — static mesh, weight, transform, position class — so changing what a generator produces means editing data, not rebuilding a graph.",
+        "Wrote a layer of <b>scriptable tools</b> against the same structure, so the tools and the generators share conventions rather than being separate worlds.",
+        "Built the shared subsystems every generator draws on: <b>exclusion, transform, projection, falloff, texture randomisation and masking, and clustering</b>. Falloff is generated from whatever spline or mesh is provided rather than authored per use.",
+        "Handled the cases that break naive scattering: <b>projection onto mountains and elevated terrain, subtraction from buildings, border and boundary spawning, ground cover, and clustering by weight or grammar</b>.",
+        "Used <b>runtime virtual texturing</b> for grass so ground treatment holds up at scale.",
+        "Added <b>projection debugging</b> and visualisation, because a procedural system artists can't inspect is a system they stop trusting."
+      ],
+      "result": [
+        "<b>Environment foliage went from around four weeks to one.</b> Main building work saw a similar gain, and a larger practical one — building layouts are revised constantly, and with PCG a revision is a regeneration rather than a rebuild.",
+        "<b>Used daily by a team of 30 Unreal artists.</b> One set of controls across every generator, so picking up a tool an artist hasn't used before costs almost nothing.",
+        "Because everything is described in data assets, setups are <b>repeatable across projects</b> — a configuration built once carries to the next scene instead of being rebuilt from scratch."
+      ],
+      "impact": [
+        {
+          "k": "4weeks  - 1week",
+          "v": "Foliage art"
+        },
+        {
+          "k": "30 artists",
+          "v": "Using regulary"
+        },
+        {
+          "k": "6",
+          "v": "Months into production"
+        }
+      ],
+      "learn": "The headline number is four weeks to one, but the change that mattered more was making redos cheap. Building layouts get revised constantly, and under the old workflow a revision meant redoing the work — so people avoided revising, and the design froze early. When regeneration is a button, iteration stops being something you ration. The tools were the easy part. What made this a system rather than a toolbox was committing to one structure early and refusing to special-case it — every generator exposes the same shape of controls and reads the same data assets, even where a bespoke design would have been quicker for that one tool. That consistency is why thirty people could adopt it without thirty separate learning curves."
+    },
+    {
       "slug": "MumbaiFallout",
       "title": "Mumbai Fallout",
       "role": "Co Devloper",
