@@ -116,7 +116,7 @@
       "links": [],
       "coverStyle": "title",
       "coverColor": "mint",
-      "blurb": "A production PCG toolset used daily by 30 Unreal artists — cut environment foliage from four weeks to one, and made the redo cycle cheap enough that iteration stopped being a cost.",
+      "blurb": "A complete procedural generation system for archviz, used daily by 30 Unreal artists. Cut environment foliage from four weeks to one and made redos cheap enough that iteration stopped being something the team rationed.",
       "meta": [
         {
           "k": "Company",
@@ -124,32 +124,38 @@
         },
         {
           "k": "Duration",
-          "v": "6 Months "
+          "v": "6 months, ongoing"
         },
         {
           "k": "Engine",
-          "v": "Unreal engine 5"
+          "v": "Unreal Engine 5"
+        },
+        {
+          "k": "Shipped as",
+          "v": "Editor plugin"
         },
         {
           "k": "Role",
-          "v": "Design Research & Build"
+          "v": "Design, research & build"
         }
       ],
       "problem": "Archviz environments get built over and over from the same ingredients — foliage along a path, fill inside a boundary, planting that has to respect buildings, grass that has to run at scale. Each one was being solved per project, by hand or with a one-off graph, so no two scenes were built the same way and nothing carried forward. The obvious fix is to write some PCG tools, but a pile of unrelated tools has the same problem in a different shape: every tool arrives with its own controls, its own conventions and its own learning curve, so artists use the one they know and ignore the rest. With thirty people on the tools, that fragmentation compounds.",
       "approach": [
-        "Built <b>two families of generators on a shared structure</b>. Environment covers fill, path and wall; Main Building covers controlled fill, controlled path, random fill, random path and mesh-sampled grass, plus negative fill and negative path for carving space back out.",
-        "Made the split between <b>controlled and random</b> the core design decision. Random generators take user weights and transform ranges and scatter within them; controlled generators add ordering and grammar, so an artist specifies what spawns in what sequence rather than only how much of it.",
-        "Made the whole system <b>data driven</b>. Foliage is described in data assets — static mesh, weight, transform, position class — so changing what a generator produces means editing data, not rebuilding a graph.",
-        "Wrote a layer of <b>scriptable tools</b> against the same structure, so the tools and the generators share conventions rather than being separate worlds.",
-        "Built the shared subsystems every generator draws on: <b>exclusion, transform, projection, falloff, texture randomisation and masking, and clustering</b>. Falloff is generated from whatever spline or mesh is provided rather than authored per use.",
+        "Built <b>two families of generators on one shared structure</b>. Environment covers fill, path and wall. Main Building covers controlled fill, controlled path, random fill, random path and mesh-sampled grass, plus negative fill and negative path for carving space back out.",
+        "Made the split between <b>controlled and random</b> the core design decision. Random generators take weights and transform ranges and scatter inside them; controlled generators add ordering and grammar, so an artist specifies what spawns in what sequence rather than only how much of it.",
+        "Made the system <b>data driven</b>. Foliage is described in data assets — static mesh, weight, transform, position class — so changing what a generator produces means editing data, not rebuilding a graph.",
+        "Built the shared subsystems every generator draws on: <b>exclusion, transform, projection, falloff, texture randomisation and masking, and clustering</b>. Falloff is generated from whatever spline or mesh is supplied rather than authored per use.",
         "Handled the cases that break naive scattering: <b>projection onto mountains and elevated terrain, subtraction from buildings, border and boundary spawning, ground cover, and clustering by weight or grammar</b>.",
-        "Used <b>runtime virtual texturing</b> for grass so ground treatment holds up at scale.",
-        "Added <b>projection debugging</b> and visualisation, because a procedural system artists can't inspect is a system they stop trusting."
+        "Used <b>runtime virtual texturing</b> for grass so ground treatment holds at scale.",
+        "Added <b>projection debugging</b> and visualisation, because a procedural system artists can't inspect is one they stop trusting.",
+        "Wrote a layer of <b>scriptable tools</b> against the same structure, so tools and generators share conventions instead of being separate worlds.",
+        "Moved the whole system out of the <b>18GB project template and into a plugin</b>, served from the studio server with only the active version exposed. Tools now version independently of project data, so an update is a plugin swap rather than a full template resync."
       ],
       "result": [
-        "<b>Environment foliage went from around four weeks to one.</b> Main building work saw a similar gain, and a larger practical one — building layouts are revised constantly, and with PCG a revision is a regeneration rather than a rebuild.",
-        "<b>Used daily by a team of 30 Unreal artists.</b> One set of controls across every generator, so picking up a tool an artist hasn't used before costs almost nothing.",
-        "Because everything is described in data assets, setups are <b>repeatable across projects</b> — a configuration built once carries to the next scene instead of being rebuilt from scratch."
+        "<b>Environment foliage went from around four weeks to one.</b> Main building work saw a similar gain and a larger practical one — layouts are revised constantly, and under PCG a revision is a regeneration rather than a rebuild.",
+        "<b>Used daily by 30 Unreal artists.</b> One set of controls across every generator, so picking up an unfamiliar one costs almost nothing.",
+        "Because everything lives in data assets, setups are <b>repeatable across projects</b> — a configuration built once carries to the next scene instead of being rebuilt.",
+        "Shipping as a plugin rather than template content meant the team could take tool updates <b>without resyncing 18GB of project data</b>."
       ],
       "impact": [
         {
@@ -166,6 +172,125 @@
         }
       ],
       "learn": "The headline number is four weeks to one, but the change that mattered more was making redos cheap. Building layouts get revised constantly, and under the old workflow a revision meant redoing the work — so people avoided revising, and the design froze early. When regeneration is a button, iteration stops being something you ration. The tools were the easy part. What made this a system rather than a toolbox was committing to one structure early and refusing to special-case it — every generator exposes the same shape of controls and reads the same data assets, even where a bespoke design would have been quicker for that one tool. That consistency is why thirty people could adopt it without thirty separate learning curves."
+    },
+    {
+      "slug": "easy-toolbag",
+      "title": "Easy Toolbag",
+      "role": "Product Lead",
+      "year": "2026",
+      "cat": "Pipeline",
+      "tags": [
+        "Unreal 5",
+        "Editor Tools",
+        "Plugin",
+        "Automation",
+        "Archviz",
+        "Pipeline"
+      ],
+      "image": "",
+      "video": "",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/ETB1.png",
+          "caption": "Select — by material, actor, class, light type, and scene audit"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB2.png",
+          "caption": "Transform — pivot, flip, rotate, look-at"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB3.png",
+          "caption": "Spawn — objects, lights, cameras, measurement helpers, screenshots"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB4.png",
+          "caption": "Sync — material syncing, select similar, replace"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB5.png",
+          "caption": "DA Editor — duplicate and edit data assets in place"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB6.png",
+          "caption": "Optimise — texture and mesh filtering, bulk compression, pre-build checks"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB7.png",
+          "caption": "Instancing — mesh to instance and back, ISM/HISM, scale and yaw fixes"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB8.png",
+          "caption": "Spline Modify — relax with tangent and roll control"
+        },
+        {
+          "kind": "image",
+          "src": "images/ETB9.png",
+          "caption": "Post Process Volume Preset — apply, update, compare"
+        }
+      ],
+      "links": [],
+      "coverStyle": "title",
+      "coverColor": "indigo",
+      "blurb": "Nine tools in one plugin for the small things artists do a hundred times a day — selecting, transforming, spawning, instancing, optimising. The work that never shows up in a shot but eats the week.",
+      "meta": [
+        {
+          "k": "Company",
+          "v": "Ink In Caps"
+        },
+        {
+          "k": "Engine",
+          "v": "Unreal Engine 5"
+        },
+        {
+          "k": "Shipped as",
+          "v": "Editor plugin"
+        },
+        {
+          "k": "Role",
+          "v": "Design, research & build"
+        }
+      ],
+      "problem": "Archviz scenes are large and repetitive, and the time doesn't disappear into any single hard task. It goes into hundreds of small ones: finding every mesh using a material, setting a pivot to the base, converting a scatter to instances, checking texture sizes before a build, applying the same post-process setup to a new camera. Each is thirty seconds of clicking. Across a full project and a whole team, it is weeks. Worse, every artist had solved them privately — their own utility widget, their own naming, nothing shared, nothing versioned. The tools existed; they just weren't anywhere anyone else could find them.",
+      "approach": [
+        "<b>Select</b> — by material, material index or selected mesh; by class or actor; by light type across static, stationary and movable and across point, spot, rect, directional and UDS. Plus <b>select dirty</b>, which finds actors with broken scale ranges or null references, so the scene gets audited rather than eyeballed.",
+        "<b>Transform</b> — pivot to top, bottom, back, right, left, front or centre; flip on X, Y or Z; rotate by 90, 45, 10 or a specific angle; reset rotation; and look-at rotation that aims a selection at any actor in the level.",
+        "<b>Spawn</b> — reference objects, lights (rect, point, spot, UDS, directional, skybox, emissive), cameras (standard, cine, archviz), and measurement helpers like a text actor and inch tape. One-click screenshots at a chosen resolution sit in the same panel.",
+        "<b>Sync</b> — find meshes carrying double materials, sync material from scene or from static mesh, select similar in the content browser by name, disk size or path, and replace automatically or by hand.",
+        "<b>DA Editor</b> — duplicate and edit data assets in place with their full settings exposed, instead of hunting them down in the content browser one at a time.",
+        "<b>Optimise</b> — filter textures above, at or below a resolution and bulk-compress them to a target; filter static meshes by triangle count the same way; plus a name and size checker and a material checker for pre-build audits.",
+        "<b>Instancing</b> — selected meshes to instances and back again, ISM and HISM toggling, hiding originals, forcing positive scale and randomising yaw.",
+        "<b>Spline Modify</b> — relax a spline with controls for iterations, strength, preserving ends, curve type, Z influence and tangent or roll locking.",
+        "<b>Post Process Volume Preset</b> — apply a preset data asset to a volume or straight to a camera, update it, create a new one, and compare a preset against what's currently applied before committing to it."
+      ],
+      "result": [
+        "Nine tools behind one dockable widget, so the tools an artist needs are in front of them rather than scattered across projects and machines.",
+        "Shipped as a plugin from the studio server with a single active version, so the whole team is on the same build without managing version folders.",
+        "FILL — how many artists use it, and which tool inside it they reach for most.",
+        "FILL — one measurable saving, even rough. The optimise or instancing tools are the likeliest to have a number attached."
+      ],
+      "impact": [
+        {
+          "k": "9",
+          "v": "tools, one widget"
+        },
+        {
+          "k": "FILL",
+          "v": "artists using it"
+        },
+        {
+          "k": "FILL",
+          "v": "time saved, per what"
+        }
+      ],
+      "learn": "None of these tools is clever on its own — most are a few lines doing something Unreal already allows, just without the clicking. What makes them worth building is volume: a thirty-second task done two hundred times a week is the real cost, and it's invisible precisely because no single instance of it feels slow. The other half is distribution. Tools that live in someone's project folder get rebuilt by the next person who needs them. Putting them behind one widget, in one plugin, at one known version is what turned a pile of private utilities into something the studio actually uses."
     },
     {
       "slug": "MumbaiFallout",
@@ -725,5 +850,5 @@
       "v": "https://x.com/Navansh1010"
     }
   ],
-  "version": "0.8"
+  "version": "0.8.2"
 }
